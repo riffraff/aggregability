@@ -1,0 +1,116 @@
+[![Build Status](https://secure.travis-ci.org/riffraff/aggregability?branch=master)](http://travis-ci.org/riffraff/aggregability)
+
+## Summary
+`aggregability` is a ruby library designed to extract data from services that aggregate links (reddit, hackernews, digg, etc..) based on some basic heuristics.
+
+See below for install notes, or read on for details.
+
+
+### What does this do really?
+Aggregability does not have a ruleset-per-website architecture, it's just a small set of heuristics. 
+This means that it tries to extract an `Aggregability::Item` for each element in the aggregator (variously called "story", "post", "item", "link"). 
+Where possible, it tires to extract different metadata:
+
+* url
+* title
+* scores ([1])
+* comments count
+* TBD: comments url, description, domain, submitter (nickname/url), timestamp
+
+[1]: multiple values: reddit for example has three values in code, of which the middle one is the real one, digg has one digg count plus shares on facebook and twitter, hubski has no scores at all) 
+
+## INSTALLATION
+
+Running
+
+    gem install aggregability
+
+should be enough to install. 	
+As of now, this library has only been tested with ruby 1.9.2 and ruby 1.9.3. 
+
+Aggregability depends on some xml parser that allows xpath queries, and has been built using Nokogiri (though it should probably work with other libraries)  but while in theory Nokogiri works with jruby, in practice I have some test failures (may very well be my fault).
+
+## How Does it work, and why did you write this?
+
+I originally just wanted to scrape some aggregators. I have done website scraping in the past, and a couple xpath/css rules per site give you a perfect result quickly. 
+
+On the other hand, they are not fun. 
+
+I mean, all these sites kind of look all alike don't they? 
+Surely I can just write some generic code that will work for more than I have ever seen, and not worry about changes in page structure over time..
+
+It turns out, this is harder than it seems, because.. 
+
+* some sites don't have a score
+* some sites have multiple scores
+* some sites don't have a single element containing all the `Item` metadata, but spread it across different sibling nodes
+* but then again, some of these metadata may not be there, so you can't just pair them up
+* not all URLs in `Item`s point to external services
+* .. sometimes they never do
+* you may have comments
+* .. and you may not
+* .. even In the same site
+* .. and sometimes multiple times
+* and then sometimes you have submitter
+* .. or multiple ones
+* .. or none
+* some sites use pretty CSS classes and ids ("story", "votes", "comments", "content") 
+* .. or none at all
+* .. or they use classes as ids ("thing1234", "vote-567")
+* .. or obscure names ("combub", "johnmalkovich", "tartalom")
+
+
+So, basically there is nothing you can assume 
+
+#### Time to give up!
+
+No way! Clearly all these pages have a defined structure: there is some kind of body, which contains this things, and there are the things. 
+So we can do this:
+
+* find the body
+* for each child element, try to extract metadata
+
+#### Yeah, well, but how do you find the body?
+
+i initially meant to use an approach based on heuristics such as element name, classes, ids, content. Except, the first three are pointless, the fourth one boils down to having already identified the items :)
+
+#### So... ?
+
+So I just look for the stuff that could be inside an `Item`: title tag, comments, votes, submitter, external links.
+
+#### Wouldn't this find things waaaay outside of the body, such as links to the blog in the footer, or title in the header?
+
+Yep, so the next step is: given a random set of elements, how do you find the right one?  
+
+The solution is the same your brain uses: you look for a pattern. 
+If many links are at the same page level (aka: same ancestor) then they form a group. 
+If this group is large enough, then the group is the one we are looking for. 
+
+#### And now you have the right element so you can just extract data from them!
+
+Almost: remember we only got pseudo random stuff from the first pass, so we backtrack and search more accurately among the children of the content node. And then, we are done.
+
+#### Isn't this super slow?
+
+Hell yeah, it takes between 40ms and 200ms to parse a page
+I did a couple trivial things for speed, but the improvements should be algorithmic (such as: not making a thousand `Document#xpath` calls). 
+
+
+
+## SUPPORT
+
+Open a ticket at <http://github.com/riffraff/aggregability/issues> if you find some unsupported website you think should be supported. Notice that sites like metafilter, where you have a paragraph of text with embedded links are not supported (yet)
+
+
+Or you can write me an email at <rff.rff+aggregability@gmail.com> if you want.
+
+## CONTRIBUTING
+
+Patches or pull requests are welcome, as long as all tests still pass.
+
+`ruby -Ilib tc_all.rb` (or `rake  test`) are your friends.
+
+
+
+
+

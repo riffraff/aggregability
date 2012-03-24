@@ -1,0 +1,181 @@
+---
+- :title: ! 'Poll: What''s Your Favorite Programming Language?'
+  :url: http://example.com/item?id=3746692
+  :scores:
+  - 1769
+  :comments_count: 458
+  :score: 1769
+- :title: How to explain your game to an asshole
+  :url: http://www.pentadact.com/2012-03-17-gdc-talk-how-to-explain-your-game-to-an-asshole/
+  :scores:
+  - 37
+  :comments_count: 2
+  :score: 37
+- :title: Consistent Hashing
+  :url: http://www.tomkleinpeter.com/2008/03/17/programmers-toolbox-part-3-consistent-hashing/
+  :scores:
+  - 47
+  :comments_count: 2
+  :score: 47
+- :title: ! 'Poll: What''s Your Most Disliked Programming Language?'
+  :url: http://example.com/item?id=3748961
+  :scores:
+  - 156
+  :comments_count: 153
+  :score: 156
+- :title: ! '''A Test You Need to Fail'': A Teacher''s Open Letter to Her 8th Grade
+    Students'
+  :url: https://www.commondreams.org/view/2012/03/23-8
+  :scores:
+  - 247
+  :comments_count: 99
+  :score: 247
+- :title: 45-foot paper airplane glides over Arizona desert
+  :url: http://www.latimes.com/business/technology/la-fi-tn-45-foot-paper-airplane-glides-over-arizona-desert-20120323,0,7676956.story
+  :scores:
+  - 12
+  :comments_count: 2
+  :score: 12
+- :title: ISS crew take to escape capsules in space junk alert
+  :url: http://www.bbc.co.uk/news/science-environment-17497766
+  :scores:
+  - 18
+  :comments_count: 1
+  :score: 18
+- :title: Pinterest posts new Terms of Service
+  :url: http://pinterest.com/about/terms/
+  :scores:
+  - 15
+  :comments_count: 7
+  :score: 15
+- :title: Pair (YC W12) is a Path for the Two of Us
+  :url: http://techcrunch.com/2012/03/23/pair-is-a-path-for-the-two-of-us/
+  :scores:
+  - 168
+  :comments_count: 63
+  :score: 168
+- :title: A fast paced stock exchange trips over itself
+  :url: http://dealbook.nytimes.com/2012/03/23/a-fast-paced-stock-exchange-trips-over-itself/
+  :scores:
+  - 5
+  :comments_count: 1
+  :score: 5
+- :title: Django 1.4 final released
+  :url: https://www.djangoproject.com/weblog/2012/mar/23/14/
+  :scores:
+  - 320
+  :comments_count: 51
+  :score: 320
+- :title: Spotify Needs Big Funding To Pay Big Content’s Tax On Success
+  :url: http://techcrunch.com/2012/03/23/spotify-funding/
+  :scores:
+  - 7
+  :comments_count: 3
+  :score: 7
+- :title: Why I quit medicine
+  :url: http://gautams.posterous.com/why-i-quit-medicine
+  :scores:
+  - 252
+  :comments_count: 101
+  :score: 252
+- :title: Forget Today’s Drama, Dustin Curtis’ Svbtle Is About Pushing Blogging Forward
+  :url: http://techcrunch.com/2012/03/24/forget-todays-drama-dustin-curtis-svbtle-is-trying-to-push-blogging-forward/
+  :scores:
+  - 18
+  :comments_count: 19
+  :score: 18
+- :title: Too Hot for Humans, But Google Servers Keep Humming
+  :url: http://www.datacenterknowledge.com/archives/2012/03/23/too-hot-for-humans-but-google-servers-keep-humming/
+  :scores:
+  - 93
+  :comments_count: 57
+  :score: 93
+- :title: ! 'Facebook: Legal action against employers asking for your password'
+  :url: http://www.zdnet.com/blog/facebook/facebook-legal-action-against-employers-asking-for-your-password/10768
+  :scores:
+  - 312
+  :comments_count: 141
+  :score: 312
+- :title: Design patterns are just tools
+  :url: http://timbenke.de/?p=457
+  :scores:
+  - 13
+  :comments_count: 7
+  :score: 13
+- :title: ! 'Realtime Metrics for 128 Million Users with Redis: 50ms + 16MB RAM'
+  :url: http://blog.getspool.com/2011/11/29/fast-easy-realtime-metrics-using-redis-bitmaps
+  :scores:
+  - 86
+  :comments_count: 15
+  :score: 86
+- :title: Why You Should Be Excited About Garbage Collection in Ruby 2.0
+  :url: http://patshaughnessy.net/2012/3/23/why-you-should-be-excited-about-garbage-collection-in-ruby-2-0#
+  :scores:
+  - 82
+  :comments_count: 27
+  :score: 82
+- :title: Python Scripts for Downloading files via SFTP
+  :url: http://engineering.monetate.com/python-scripts-for-downloading-files-via-sftp
+  :scores:
+  - 6
+  :comments_count: 0
+  :score: 6
+- :title: The Stanford Education Experiment Could Change Higher Learning Forever
+  :url: http://www.wired.com/wiredscience/2012/03/ff_aiclass
+  :scores:
+  - 81
+  :comments_count: 19
+  :score: 81
+- :title: ! 'Frustro: The Impossible Typeface'
+  :url: http://www.jeanniejeannie.com/2012/03/16/frustro-the-impossible-typeface/
+  :scores:
+  - 510
+  :comments_count: 44
+  :score: 510
+- :title: Facebook wants you before you are born
+  :url: http://www.thepowerbase.com/2011/12/facebook-wants-you-before-you-are-born/
+  :scores:
+  - 4
+  :comments_count: 3
+  :score: 4
+- :title: ! 'MIT discovers the location of memories: Individual neurons'
+  :url: http://www.extremetech.com/extreme/123485-mit-discovers-the-location-of-memories-individual-neurons
+  :scores:
+  - 314
+  :comments_count: 112
+  :score: 314
+- :title: ! 'Show HN: Q&A for HN users'
+  :url: http://www.askolo.com
+  :scores:
+  - 129
+  :comments_count: 72
+  :score: 129
+- :title: Solving the Wrong Problem
+  :url: http://www.jaynathan.org/2012/03/solving-the-wrong-problem/
+  :scores:
+  - 8
+  :comments_count: 2
+  :score: 8
+- :title: ! 'Wanted: Product Owner (500friends, w2010)'
+  :url: http://500friendsinc.jobscore.com/jobs/500friendsinc/senior-director-of-product/b3iPoKx18r4ByseJe4bk1X
+  :scores: []
+  :comments_count: 0
+  :score: !!null 
+- :title: ! 'ZeroVM: lightweight containers based on Google Native Client'
+  :url: http://zerovm.org
+  :scores:
+  - 160
+  :comments_count: 59
+  :score: 160
+- :title: agentzh's Nginx Tutorials
+  :url: http://agentzh.org/misc/nginx/agentzh-nginx-tutorials-enuk.html
+  :scores:
+  - 232
+  :comments_count: 22
+  :score: 232
+- :title: ! 'Codename: Obtvse'
+  :url: http://natewienert.com/codename-obtvse
+  :scores:
+  - 848
+  :comments_count: 352
+  :score: 848

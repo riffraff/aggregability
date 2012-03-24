@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+# vim: syntax=ruby
+
+require 'aggregability'
+
+if ARGV.empty?
+  abort("Usage: #$0 <url or filename> [other urls]")
+end
+require 'open-uri'
+
+
+ARGV.each do |site|
+  content = open(site).read
+  start = Time.now
+  items = Aggregability::Extractor.new.parse_io(content) 
+  puts("Parsed #{site} in %f secs" % (Time.now - start))
+  start = Time.now
+  if items.empty?
+    puts "nothing found at #{site}, if you think this should be supported contact the author!"
+  end
+
+  items.each do |item|
+    puts item.to_row
+    puts "="*80
+  end
+end

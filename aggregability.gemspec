@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "aggregability"
   s.version     = Aggregability::VERSION
   s.authors     = ["Gabriele Renzi"]
-  s.email       = ["rff.rff@gmail.com"]
+  s.email       = ["rff.rff+aggregability@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{scrape aggregator sites like reddit, hackernews, digg}
+  s.description = %q{scrape aggregator sites like reddit, hackernews, digg}
 
   s.rubyforge_project = "aggregability"
 
@@ -17,8 +17,10 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+  s.bindir = 'bin'
+  
 
   # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  # s.add_development_dependency "ruby-prof"
+  s.add_runtime_dependency "nokogiri", '~> 1.5.0'
 end

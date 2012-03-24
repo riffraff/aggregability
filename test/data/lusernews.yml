@@ -1,0 +1,181 @@
+---
+- :title: Cache them if you can
+  :url: http://www.stevesouders.com/blog/2012/03/22/cache-them-if-you-can/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: ! 'Python internals: how callables work'
+  :url: http://eli.thegreenplace.net/2012/03/23/python-internals-how-callables-work/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: agentzh 的 Nginx 教程
+  :url: http://agentzh.org/misc/nginx/agentzh-nginx-tutorials-zhcn.html
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: Github Styleguide
+  :url: https://github.com/styleguide/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: SICP (python version)
+  :url: http://inst.eecs.berkeley.edu/~cs61a/sp12/book/index.html
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: Redis reliable queues with Lua scripting
+  :url: http://antirez.com/post/250
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: PEP 414 -- Explicit Unicode Literal for Python 3.3
+  :url: http://www.python.org/dev/peps/pep-0414/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Defining new control structures using C macros
+  :url: http://www.rfc1149.net/blog/2012/03/17/control-structures-with-c-macros/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: lusernews新手搭建指南
+  :url: https://github.com/dengzhp/lusernews/wiki/InstallationGuideForNewbie
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! 'Algorithm cheatsheet: Quicksort'
+  :url: http://www.stoimen.com/blog/2012/03/12/algorithm-cheatsheet-quicksort/
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: How to Interview an Engineer for your Startup
+  :url: http://www.tawheedkader.com/2012/03/how-to-hire-a-hacker-for-your-startup/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! 'Bootswatch: Free themes for Twitter Bootstrap'
+  :url: http://bootswatch.com/#gallery
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: ! '[nginx-announce] security advisory'
+  :url: http://mailman.nginx.org/pipermail/nginx-announce/2012/000076.html
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Apply to Y Combinator without an Idea
+  :url: http://ycombinator.com/noidea.html
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Here is why vim uses the hjkl keys as arrow keys
+  :url: http://www.catonmat.net/blog/why-vim-uses-hjkl-as-arrow-keys/
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: Tether Webapp Shares Your iPhone’s Data Connection with Your Mac or Windows..
+  :url: http://lifehacker.com/5892090/tether-web-app-shares-your-iphones-data-connection-with-your-mac-or-windows-pc-no-jailbreaking-required
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Running Erlang Webmachine on Heroku
+  :url: http://zianet.dk/blog/2011/12/16/running-erlang-webmachine-on-heroku/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Goto decorator for python
+  :url: https://github.com/albertz/playground/blob/master/py_goto.py
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: 从 Solaris 到 illumos - 关于技术权力抗争、开源以及梦想的故事
+  :url: http://www.dbanotes.net/opensource/Solaris_Illumos.html
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! '"cyclone.io — faster than tornado! "'
+  :url: http://cyclone.io/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: hekyll - a Jekyll generator for Impress.js presentations
+  :url: https://github.com/bmcmurray/hekyll
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: 各语言中哈希表实现的性能分析
+  :url: http://monnand.me/p/hashtable-bench/zhCN/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: The Ruby on Rails Tutorial, now with Twitter's Bootstrap
+  :url: http://news.railstutorial.org/ruby-on-rails-tutorial-now-with-twitters-boot
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! '[Python-Dev] pysandbox 1.5 released'
+  :url: http://mail.python.org/pipermail/python-dev/2012-March/117831.html
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: Icon Fonts are Awesome
+  :url: http://css-tricks.com/examples/IconFont/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: I will not learn Rails
+  :url: https://tyler.menez.es/articles/i-will-not-learn-rails.html
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: Don't use bcrypt
+  :url: http://www.unlimitednovelty.com/2012/03/dont-use-bcrypt.html
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: Luser News
+  :url: http://lusernews.com/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: shelljs - Portable Unix shell commands for Node.js
+  :url: https://github.com/arturadib/shelljs
+  :scores:
+  - 1
+  :comments_count: 9
+  :score: 1
+- :title: Great, Another Bootstrap Site
+  :url: http://drawar.com/d/great-another-bootstrap-site/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1

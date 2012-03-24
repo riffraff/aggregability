@@ -1,0 +1,124 @@
+---
+- :title: ! 'Show Hackful: Facebook Profile Scanner'
+  :url: http://checksocial.net
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: ! 'Show Hackful: Our startup Scirra'
+  :url: http://example.com/posts/753
+  :scores:
+  - 8
+  :comments_count: 3
+  :score: 8
+- :title: sunflowers as part of an experiment to solve the mathematical riddle that
+    Turing worked
+  :url: http://www.manchestersciencefestival.com/connect/getinvolved/sunflowers
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: A trip to The Internet Archive (archive.org)
+  :url: http://stritar.net/Post/The-Silicon-Valley-tour-part-6-A-Trip-To-the-Internet-Archive.aspx
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! 'Ask HE: Invoicing webapp for EU freelancer?'
+  :url: http://example.com/posts/747
+  :scores:
+  - 5
+  :comments_count: 3
+  :score: 5
+- :title: ! 'Show HE: I wrote an eBook about UI design'
+  :url: http://sachagreif.com/ebook/
+  :scores:
+  - 8
+  :comments_count: 1
+  :score: 8
+- :title: ! 'Ask HE: New social network dedicated to job/life. Feedback?'
+  :url: http://example.com/posts/748
+  :scores:
+  - 4
+  :comments_count: 4
+  :score: 4
+- :title: ! 'Offer HE: Free job listing on Hacker Jobs UK'
+  :url: http://example.com/posts/729
+  :scores:
+  - 10
+  :comments_count: 8
+  :score: 10
+- :title: Weekly startups news from Russia and Eastern Europe
+  :url: http://goaleurope.com/2012/03/23/startups-eastern-europe-venture-capital-weekly-news-startups-in-eastern-europe/
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: Any finance or payments start-ups want to be interviewed for The Kernel?
+  :url: http://example.com/posts/727
+  :scores:
+  - 7
+  :comments_count: 2
+  :score: 7
+- :title: All of Iceland's public administrations moving towards open source
+  :url: https://joinup.ec.europa.eu/news/all-icelands-public-administrations-moving-towards-open-source
+  :scores:
+  - 6
+  :comments_count: 0
+  :score: 6
+- :title: ! 'Ask HE: Should we use HACKFUL.EU as the primary domain name for Hackful
+    Europe?'
+  :url: http://example.com/posts/658
+  :scores:
+  - 27
+  :comments_count: 31
+  :score: 27
+- :title: The Pirate Bay to experiment with hosting on "Low Orbit Server Stations"
+  :url: http://thepiratebay.se/blog/210
+  :scores:
+  - 10
+  :comments_count: 8
+  :score: 10
+- :title: Meet YouTube Space Lab Global Winners
+  :url: http://thetecnica.com/2012/03/meet-youtube-space-lab-global-winners
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: What every startup should do before writing any code
+  :url: http://blog.crispyfriedsoftware.com/post/19774815792/6-steps-for-your-startup-before-you-start-coding
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Facebook Started Taking Google+ Seriously
+  :url: http://thetecnica.com/2012/03/facebook-started-taking-google-seriously
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! 'Stephen Fry: It is time once and for all to end the pointless nonsense
+    of one document sent on one platform being incomprehensible to the user of another.'
+  :url: http://documentfreedom.org/index.en.html
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: Sweden approves divisive EU data directive
+  :url: http://www.thelocal.se/39812/20120321/
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: BusyFlow Launches Publicly At London Web Summit
+  :url: http://www.arcticstartup.com/2012/03/19/busyflow-launches-publicly-at-london-web-summit
+  :scores:
+  - 7
+  :comments_count: 0
+  :score: 7
+- :title: Balkan Venture Forum April 2012
+  :url: http://www.balkanventureforum.org/
+  :scores:
+  - 5
+  :comments_count: 1
+  :score: 5
