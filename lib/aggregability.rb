@@ -186,7 +186,7 @@ module Aggregability
     # comments are more restricted, cause I have no found other rules 
     # (though you may look for speech bubbles)
     COMMENTS_NODE_SELECTORS = [
-                          ".//*[contains(concat(text(), @class),'comment')]"
+                          ".//*[contains(concat(text(),' ', @class),'comment')]"
                            ]
 
     def title_node node
