@@ -241,8 +241,7 @@ module Aggregability
       #    6 
        
       # shaves some time
-      #text_nodes = node.xpath(SCORE_NODE_SELECTORS.first+'//text()')
-      text_nodes = node.xpath(*SCORE_NODE_SELECTORS).map {|n| n.xpath(".//text()").to_a}.flatten.uniq 
+      text_nodes = node.xpath(*SCORE_NODE_SELECTORS.map {|n| n+"//text()"})
       res = text_nodes.select do |text_node|
         text_node.text.strip =~  SINGLE_SCORE_RGX || text_node.text.strip =~ MULTIPLE_SCORE_RGX
       end
