@@ -10,10 +10,15 @@ module Aggregability
       p [str, Time.now - start] if $DEBUG
       res
     end
+    # debugging printer
+    def ipn key, xmlnode, *rest
+      p [key, [xmlnode.name, xmlnode['id'], xmlnode['class']]] + rest
+    end
 =end
 
+
     Item = Struct.new(:title, :url, :scores, :comments_count) do
-      
+
       def score
         scores.first
       end
@@ -70,12 +75,6 @@ module Aggregability
       true
     end
 
-    # debugging printer
-    def ipn key, xmlnode, *rest
-      p [key, [xmlnode.name, xmlnode['id'], xmlnode['class']]] + rest
-    end
-
-    
     # find 
     #
     def closest_common_ancestor_for_most(cs)
@@ -146,21 +145,6 @@ module Aggregability
         anc
       end
     end
-
-    def p arg
-      $i ||= 0
-      $i +=1
-      print $i, " "
-      super arg
-    end
-
-    class XpathFunctions
-      RGX = /count|score|vote|point/
-      def score_match(str)
-        str =~ RGX 
-      end
-    end
-    
 
     # given something that looks like a "item" element, hod do you look for the link?
     TITLE_NODE_SELECTORS= ['.//h1//a', './/h2//a', './/h3//a', './/h4//a', './/h5//a', 
@@ -262,8 +246,9 @@ module Aggregability
         "#{@root_url}/#{u}"
       end
     end
-    def find_items_paired node_pairs
-      node_pairs.map do |node| 
+
+    def find_items_paired nodes
+      nodes.map do |node| 
         
         title = title_node(node)
         if title.nil?
