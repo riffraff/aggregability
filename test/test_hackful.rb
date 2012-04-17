@@ -15,7 +15,7 @@ class TestHackful < Test::Unit::TestCase
   end
 
   def check fd
-      e = Aggregability::Extractor.new nil, 'http://hackful.com'
+      e = Aggregability::Extractor.new 'http://hackful.com'
       items = e.parse_io(fd)
       assert_equal 20, items.size
       first = items.first

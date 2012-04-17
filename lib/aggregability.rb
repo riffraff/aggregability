@@ -40,9 +40,11 @@ module Aggregability
   class Extractor
 
     attr :parser
-    # init using a custom xml extractor
+    
+    # init providing a root_url (so relative urls can be normalized)
+    # such as "http://reddit.com" (no trailing slash
     #
-    def initialize xmlish_parser=nil, root_url=""
+    def initialize root_url="", xmlish_parser=nil
       # raise error to avoid messing up later with implict behaviour"
       raise 'root url should not contain a trailing slash' if root_url[-1] == ?/
       @root_url = root_url
@@ -56,6 +58,10 @@ module Aggregability
     IGNOREABLE_CHILDREN_ELEMENTS = %w[
       script img button style
     ]
+
+    # attempts to find all the items under a certain node that could be interesting for us
+    # e.g. comments, titles, votes
+    #
     def children_item_nodes node
       node.xpath(
                   *TITLE_NODE_SELECTORS,
@@ -64,32 +70,11 @@ module Aggregability
                  ).reject {|n| IGNOREABLE_CHILDREN_ELEMENTS.include?(n.name) }
     end
 
-    # used for tests
-    def item_node?(node)
-      nodes = children_item_nodes(node)
-      if nodes.size < 1
-        return false
-      elsif nodes.size > 5
-        return false
-      end
-      true
-    end
 
-    # find 
+    # Attempts to find the most probable "content" node given a set produced by +#children_item_nodes+
     #
     def closest_common_ancestor_for_most(cs)
-      # this is needed, given the horrible hack we use to find the body
-      # because you may have a structure like
-      # body  
-      #  header 
-      #   title 
-      #    title 
-      #     title 
-      #      title
-      #  content 
-      #   title
-      #   title
-      # and we don't want to screw up our estimation
+      # see above for why this is needed
       cs = remove_nested_nodes(cs)
       ancestors_lists = cs.map {|x| x.ancestors}
 
@@ -110,6 +95,34 @@ module Aggregability
       nil
     end
 
+    # Given a node set, remove the nodes which are included in the others, e.g
+    # 
+    # 
+    #  item
+    #    votes
+    #    title
+    #  item  
+    #    votes
+    #    title
+    #
+    # becomes
+    #  item
+    #  item
+    #
+    # This is necessary for +closest_common_ancestor_for_most+ to get the number right
+    # because you may have a structure like
+    #
+    # body  
+    #  header 
+    #   title 
+    #    title 
+    #     title 
+    #      title
+    #  content 
+    #   title
+    #   title
+    # and we don't want to screw up our estimation of what the real content page is
+    #
     def remove_nested_nodes(nodes)
       # still slow, but seems fast enough, e.g. 0.01177 sec for reddit page, 0.07 for digg
       # assumes nodes are provided in the textual order of the page
@@ -298,21 +311,17 @@ module Aggregability
       find_items_paired nodes
     end    
 
-    # Extracts Items from IO
+    # Extracts Items from IO, you can specify an encoding if necessary, but utf-8 by default is a sensible choice
     #
     def parse_io(io, encoding='utf-8')
-=begin
       # possibly this could make some difference, but none I can see 
-       opts = ParseOptions::COMPACT |  ParseOptions::DEFAULT_HTML | ParseOptions::NOBLANKS | ParseOptions::NONET
-=end
+      # opts = ParseOptions::COMPACT |  ParseOptions::DEFAULT_HTML | ParseOptions::NOBLANKS | ParseOptions::NONET
 
       xmlnode = parser.parse(io, nil, encoding)
-            
       content_node = find_content(xmlnode)
-
       items = find_items(content_node)
     end
 
   end
-  
+
 end

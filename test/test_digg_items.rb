@@ -5,7 +5,7 @@ require 'aggregability'
 #notice that digg is evil and will load 3 ad items via js
 class TestDiggItems < Test::Unit::TestCase
   def check fd
-      e = Aggregability::Extractor.new nil, 'http://digg.com'
+      e = Aggregability::Extractor.new 'http://digg.com'
       items = e.parse_io(fd)
       assert_equal 15, items.size
       first = items.first

@@ -4,25 +4,39 @@ require 'aggregability'
 require 'nokogiri'
 
 class TestItemNode < Test::Unit::TestCase
+
+  def item_node?(extractor, node)
+      nodes = extractor.children_item_nodes(node)
+      if nodes.size < 1
+        return false
+      elsif nodes.size > 5
+        return false
+      end
+      true
+  end
+
   def assert_item_node xml
     node = Nokogiri.parse(xml)
     e = Aggregability::Extractor.new
     msg = "not node:\n"
     msg += xml if $DEBUG
-    assert e.item_node?(node), msg
+    assert item_node?(e,node), msg
   end
+
   def assert_not_item_node xml
     node = Nokogiri.parse(xml)
     e = Aggregability::Extractor.new
     msg = "node, expected not:\n"
     msg += xml if $DEBUG
-    assert !e.item_node?(node), msg
+    assert !item_node?(e, node), msg
   end
+
   Dir[File.join(File.dirname(__FILE__), '..', 'test','data', 'entry_ok', '*.html')].each do |data|
     define_method "test_#{data.gsub(/\.html/,'')}_ok" do
       assert_item_node(File.read(data))
     end
   end
+
   Dir[File.join(File.dirname(__FILE__), '..', 'test','data', 'entry_no', '*.html')].each do |data|
     define_method "test_#{data.gsub(/\.html/,'')}_ok" do
       assert_not_item_node(File.read(data))
@@ -45,6 +59,7 @@ class TestItemNode < Test::Unit::TestCase
     ns = e.closest_common_ancestor_for_most(nodes)
     assert_equal 'dad', ns['id']
   end
+
   def test_remove_nested_nodes
 
     nodes = Nokogiri.parse(<<-XML).search('*')
@@ -65,6 +80,7 @@ class TestItemNode < Test::Unit::TestCase
     nodes = e.remove_nested_nodes(nodes)
     assert_equal 1, nodes.size
   end
+
   def test_closest_common_ancestor_for_most_siblings
     node = Nokogiri.parse(<<-XML)
       <div id="granpa">

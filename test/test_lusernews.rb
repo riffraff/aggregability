@@ -15,7 +15,7 @@ class TestLusernews < Test::Unit::TestCase
   end
 
   def check fd
-      e = Aggregability::Extractor.new nil, 'http://lusernews.com'
+      e = Aggregability::Extractor.new 'http://lusernews.com'
       items = e.parse_io(fd)
       assert_equal 30, items.size
       first = items.first
