@@ -1,6 +1,9 @@
 # -*- encoding : utf-8 -*-
 require "aggregability/version"
 require 'pp' if $DEBUG
+    def ipn key, xmlnode, *rest
+      p [key, [xmlnode.name, xmlnode['id'], xmlnode['class']]] + rest
+    end
 
 module Aggregability
 =begin
@@ -66,6 +69,7 @@ module Aggregability
       node.xpath(
                   *TITLE_NODE_SELECTORS,
                   *SCORE_NODE_SELECTORS,
+                  *SUBMITTER_NODE_SELECTORS,
                   *COMMENTS_NODE_SELECTORS
                  ).reject {|n| IGNOREABLE_CHILDREN_ELEMENTS.include?(n.name) }
     end
@@ -146,8 +150,8 @@ module Aggregability
     #
     def find_content xmlnode
       raise "searching a nil node doesn't make sense" if xmlnode.nil?
-      cs, anc=nil
       cs = children_item_nodes(xmlnode)
+      #pp cs.map {|x| [x.name, x['id'], x['class'], x.ancestors.size ]}
       if cs.empty?
         return nil
       end
@@ -158,6 +162,15 @@ module Aggregability
         anc
       end
     end
+
+    # if xpath's match() method worked in nokogiri/libxml life would be better
+    # sadly nokogiri's "add your own xpath functions" makes it super slow
+    def self.concat_ignorecase_xpath_expr(text_expr, contained)
+      chars = contained.chars.sort.join.squeeze
+      "contains(translate(#{text_expr},'#{chars.upcase}','#{chars.downcase}'),'#{contained}')"
+    end 
+
+
 
     # given something that looks like a "item" element, hod do you look for the link?
     TITLE_NODE_SELECTORS= ['.//h1//a', './/h2//a', './/h3//a', './/h4//a', './/h5//a', 
@@ -171,19 +184,23 @@ module Aggregability
     # and since I make many calls to them this improves the speed a bit.
     # Of course, not making the calls would be better, but this took one minute to write.
     #
-    # if xpath's match() method worked in nokogiri life would be better
+    score_concat_exprs = %w[count point score vote].map do |n| 
+      concat_ignorecase_xpath_expr("concat(text(),' ',@class)", n)
+    end
     SCORE_NODE_SELECTORS = [
-                          ".//*[contains(concat(text(),' ', @class),'count') or "+
-                               "contains(concat(text(),' ', @class),'point') or "+
-                               "contains(concat(text(),' ', @class),'score') or "+
-                               "contains(concat(text(),' ', @class),'vote')  or "+
-                               "contains(text(),'up')]",
+                          ".//*[#{score_concat_exprs.join(' or ')} or contains(text(),'up')]"
                            ]
-
+    comment_concat_exprs = concat_ignorecase_xpath_expr("concat(text(),' ',@class)", 'comment')
     # comments are more restricted, cause I have no found other rules 
     # (though you may look for speech bubbles)
     COMMENTS_NODE_SELECTORS = [
-                          ".//*[contains(concat(text(),' ', @class),'comment')]"
+                          ".//*[#{comment_concat_exprs}]"
+                           ]
+
+    SUBMITTER_NODE_SELECTORS = [
+                          ".//*[contains(text(),'submitted')]",
+                          ".//*[contains(text(),'posted')]",
+                          ".//*[contains(text(),'submitted')]",
                            ]
 
     def title_node node
@@ -317,6 +334,7 @@ module Aggregability
       # possibly this could make some difference, but none I can see 
       # opts = ParseOptions::COMPACT |  ParseOptions::DEFAULT_HTML | ParseOptions::NOBLANKS | ParseOptions::NONET
 
+      # we could offset directly to 'body'.. but 'body' is not there sometimes :)
       xmlnode = parser.parse(io, nil, encoding)
       content_node = find_content(xmlnode)
       items = find_items(content_node)
