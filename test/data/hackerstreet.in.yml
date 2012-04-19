@@ -1,0 +1,183 @@
+---
+- :title: ! 'Ask Hackerstreet: Looking for a good frontend engineer on contract'
+  :url: http://example.com/item?id=15610
+  :scores:
+  - 4
+  :comments_count: 3
+  :score: 4
+- :title: ! 'Ask HSI: Which E-commerce softwares support Indian payment gateways?'
+  :url: http://example.com/item?id=15617
+  :scores:
+  - 2
+  :comments_count: 2
+  :score: 2
+- :title: Freelance,Contractor IEC/Import Export License and Billing software
+  :url: http://example.com/item?id=15611
+  :scores:
+  - 3
+  :comments_count: 1
+  :score: 3
+- :title: ! 'Show HSI: TheNounProject.com - Free Online Collection of Icons'
+  :url: http://example.com/item?id=15605
+  :scores:
+  - 4
+  :comments_count: 2
+  :score: 4
+- :title: Does Flipkart innovate?
+  :url: http://www.quora.com/Flipkart/Does-Flipkart-innovate
+  :scores:
+  - 4
+  :comments_count: 2
+  :score: 4
+- :title: Ask your MP to vote against the Internet Censorship Law
+  :url: http://cis-india.org/internet-governance/campaigns/vote-against-internet-censorship-law
+  :scores:
+  - 8
+  :comments_count: 1
+  :score: 8
+- :title: How important is your resume? [survey]
+  :url: https://docs.google.com/spreadsheet/viewform?formkey=dEZiWUdxUkpkX1pLYkxhVjNZTnpCcnc6MQ#gid=0
+  :scores:
+  - 6
+  :comments_count: 8
+  :score: 6
+- :title: ! '[Meetup] Indian startup cowboys | Shalimar, Sunnyvale, CA | Apr 22 |
+    7pm'
+  :url: http://example.com/item?id=15588
+  :scores:
+  - 8
+  :comments_count: 0
+  :score: 8
+- :title: Udacity's four new courses started from today
+  :url: http://www.udacity.com/
+  :scores:
+  - 5
+  :comments_count: 3
+  :score: 5
+- :title: Dont remind me that I am “stup*d”. I know that already. SaaS UX
+  :url: http://bestengagingcommunities.com/2012/04/17/but-dont-remind-me-that-i-am-stupd-i-know-that-already-saas-application-user-experience/
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: Advertise yourself and not your product!
+  :url: http://blog.interacteasy.com/post/21259970890/advertize-not-sell
+  :scores:
+  - 4
+  :comments_count: 6
+  :score: 4
+- :title: Which is the best bank for startups in India?
+  :url: http://example.com/item?id=15600
+  :scores:
+  - 2
+  :comments_count: 4
+  :score: 2
+- :title: ! 'Ask HSI: Open Source Alternative for SPOJ/UVA engine'
+  :url: http://example.com/item?id=15591
+  :scores:
+  - 3
+  :comments_count: 1
+  :score: 3
+- :title: ! 'Ask HSI: How have things changed in India since this story hit 60 Minutes?'
+  :url: http://video.google.com/videoplay?docid=-6694143975371488739&ei=m0hfS7
+  :scores:
+  - 6
+  :comments_count: 3
+  :score: 6
+- :title: India - The Android First Nation
+  :url: http://androidos.in/2012/04/india-the-android-first-nation/
+  :scores:
+  - 10
+  :comments_count: 0
+  :score: 10
+- :title: Showcasing Four Years of My Work
+  :url: http://example.com/item?id=15508
+  :scores:
+  - 17
+  :comments_count: 12
+  :score: 17
+- :title: Cafe Coffee Day (CCD) enters E-commerce
+  :url: http://yourstory.in/2012/04/ccd-enters-ecommerce/
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: What do you think about Meteor?
+  :url: http://www.meteor.com/
+  :scores:
+  - 6
+  :comments_count: 8
+  :score: 6
+- :title: Introducing bollyMuse...just lean back and enjoy to great video playlists..
+  :url: http://www.bollymuse.com/
+  :scores:
+  - 6
+  :comments_count: 9
+  :score: 6
+- :title: Five Things You Can Learn From Instagram Success
+  :url: http://youngblah.com/five-things-you-can-learn-from-instagram-success/
+  :scores:
+  - 3
+  :comments_count: 2
+  :score: 3
+- :title: Flipkart is violating Google Play's ToS with Flyte Android app..?
+  :url: https://play.google.com/store/apps/details?id=com.flipkart.flyte
+  :scores:
+  - 8
+  :comments_count: 14
+  :score: 8
+- :title: Let’s build valuable companies. Together.
+  :url: http://avlesh.wordpress.com/2012/04/14/lets-build-valuable-companies-together/
+  :scores:
+  - 16
+  :comments_count: 24
+  :score: 16
+- :title: Open Discovery for apps and apps developers
+  :url: http://appto.us
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: No virtuous circle, or how India's Silicon Valley is... different
+  :url: http://blog.sidu.in/2012/04/no-virtuous-circle-or-how-indias.html
+  :scores:
+  - 40
+  :comments_count: 16
+  :score: 40
+- :title: C42 Launchpad - bridging the gap between programmers and the industry
+  :url: http://blog.c42.in/c42-launchpad
+  :scores:
+  - 15
+  :comments_count: 2
+  :score: 15
+- :title: Pluggd.In And Ethics
+  :url: http://iamstarting.com/2012/04/pluggd-in-ethics
+  :scores:
+  - 58
+  :comments_count: 22
+  :score: 58
+- :title: Startups, this is how design works
+  :url: http://startupsthisishowdesignworks.com/
+  :scores:
+  - 9
+  :comments_count: 0
+  :score: 9
+- :title: ! 'Menzkart.com : men undergarment shopping store'
+  :url: http://example.com/item?id=15477
+  :scores:
+  - 7
+  :comments_count: 20
+  :score: 7
+- :title: Sramana Mitra shares myths about entrepreneurship
+  :url: http://www.youtube.com/watch?feature=player_embedded&v=jymeTtdrR1w
+  :scores:
+  - 6
+  :comments_count: 0
+  :score: 6
+- :title: Are you an Android App developer based out of India who is waiting for paid
+    ...
+  :url: http://bit.ly/HFfoIt
+  :scores:
+  - 6
+  :comments_count: 4
+  :score: 6
