@@ -1,0 +1,182 @@
+---
+- :title: A High Frequency Trader's Apologia, Pt.1 (basic mechanics of HFT)
+  :url: http://www.chrisstucchio.com/blog/2012/hft_apology.html
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: Correlation (I). CTAs or how to beat the monkey
+  :url: http://www.gestiondefuturos.org/2012/04/16/correlacion-i-los-cta-o-como-batir-al-mono/?lang=en
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: ! 'The Black-Scholes Formula: A Documentary'
+  :url: http://www.moneyscience.com/pg/blog/Admin/read/290229/the-blackscholes-formula-a-documentary
+  :scores:
+  - 7
+  :comments_count: 1
+  :score: 7
+- :title: ! 'Infographics: 10 Things the Public Need to Know About Quantitative Trading'
+  :url: http://www.mathfinance.cn/10-things-public-need-to-know-about-quantitative-trading/
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: Additional London  Tokyo undersea cable
+  :url: http://www.extremetech.com/extreme/122989-1-5-billion-the-cost-of-cutting-london-toyko-latency-by-60ms
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: High Frequency Trading Acceleration Using FPGAs
+  :url: http://www.moneyscience.com/pg/bookmarks/Admin/read/283960/high-frequency-trading-acceleration-using-fpgas-pdf
+  :scores:
+  - 5
+  :comments_count: 0
+  :score: 5
+- :title: Shades of Cointegration
+  :url: http://www.empirical-finance.com/
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: ! 'On Default Correlation: A Copula Function Approach (2000)'
+  :url: http://www.moneyscience.com/pg/bookmarks/Admin/read/280676/on-default-correlation-a-copula-function-approach-2000-pdf
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: Financial black swans driven by ultrafast machine ecology
+  :url: http://www.moneyscience.com/pg/bookmarks/Admin/read/262451/financial-black-swans-driven-by-ultrafast-machine-ecology
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: Introduction to QuantLib Development with Luigi Ballabio, London, 21-23rd
+    May
+  :url: http://www.moneyscience.com/pg/blog/Admin/read/260727/luigi-ballabio-and-moneyscience-present-introduction-to-quantlib-development-london-2123rd-may-2012
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: ! 'WIRED: Nanosecond trading = haywire'
+  :url: http://www.wired.com/wiredscience/2012/02/high-speed-trading/
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: Pathetic Model Using VIX To Predict S&P 500
+  :url: http://www.curatedalpha.com/2012/pathetic-model-using-vix-to-predict-sp-500-part-1/
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: An Empirical Analysis of Hard and Soft Information in a High Frequency World
+  :url: http://www.moneyscience.com/pg/bookmarks/Admin/read/252945/need-for-speed-an-empirical-analysis-of-hard-and-soft-information-in-a-high-frequency-world
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: The distribution of financial returns made simple
+  :url: http://www.portfolioprobe.com/2012/01/23/the-distribution-of-financial-returns-made-simple/
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: A Bar May Be the Place to Understand Markets
+  :url: http://www.bloomberg.com/news/2012-02-07/a-bar-may-be-best-place-to-understand-markets-commentary-by-mark-buchanan.html
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: We Don’t Quite Know What We Are Talking About When We Talk About Volatility
+  :url: http://www.curatedalpha.com/2011/we-don%E2%80%99t-quite-know-what-we-are-talking-about-when-we-talk-about-volatility/
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: Is Share Price Relevant?
+  :url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1341790
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Traders Look to Wireless for Lowest Latency
+  :url: http://www.highfrequencytraders.com/featured/972/traders-look-wireless-lowest-latency
+  :scores:
+  - 7
+  :comments_count: 0
+  :score: 7
+- :title: ! 'Curated Interviews From Quants: Algorithmic Trading and HFT Part 3'
+  :url: http://www.curatedalpha.com/2011/curated-interviews-from-quants-algorithmic-trading-and-high-frequency-trading-from-reddit%E2%80%99s-iama-part-3/
+  :scores:
+  - 8
+  :comments_count: 0
+  :score: 8
+- :title: GETCO now into NYSE floor trading?
+  :url: http://www.reuters.com/article/2011/12/01/us-bankofamerica-getco-nyse-idUSTRE7B00CH20111201
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: The LMAX Architecture
+  :url: http://martinfowler.com/articles/lmax.html
+  :scores:
+  - 13
+  :comments_count: 7
+  :score: 13
+- :title: Quantly officially dead?
+  :url: http://example.com/item?id=1798
+  :scores:
+  - 4
+  :comments_count: 9
+  :score: 4
+- :title: How to search the R-sig-finance archives
+  :url: http://www.portfolioprobe.com/2012/01/19/how-to-search-the-r-sig-finance-archives/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: A slice of S&P 500 skewness history
+  :url: http://www.portfolioprobe.com/2012/01/16/a-slice-of-sp-500-skewness-history/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Options Arbitrage In VXX Series
+  :url: http://onlyvix.blogspot.com/2011/09/options-arbitrage-in-vxx.html
+  :scores:
+  - 8
+  :comments_count: 5
+  :score: 8
+- :title: Packet Processing in High Frequency Trading
+  :url: http://www.highfrequencytraders.com/featured/1002/packet-processing-high-frequency-trading
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: ! 'Explosive Volatility: A Model of Financial Contagion'
+  :url: http://arxiv.org/abs/1110.5789v1
+  :scores:
+  - 4
+  :comments_count: 0
+  :score: 4
+- :title: ! 'The Encyclopedia of Trading Systems: Quantpedia.com'
+  :url: http://quantpedia.com
+  :scores:
+  - 5
+  :comments_count: 0
+  :score: 5
+- :title: Disruptor - Concurrent Programming Framework
+  :url: http://code.google.com/p/disruptor/
+  :scores:
+  - 9
+  :comments_count: 0
+  :score: 9
+- :title: ! 'Nassim Taleb: Minimal Exposure To The Media As A Guiding Principle'
+  :url: http://www.curatedalpha.com/2011/nassim-taleb-minimal-exposure-to-the-media-as-a-guiding-principle/
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3

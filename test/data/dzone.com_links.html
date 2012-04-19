@@ -1,0 +1,4702 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<!-- Use this code block to activate a prestitial if there's one to load -->
+<!-- BEGIN ADVERTPRO ADVANCED CODE BLOCK -->
+
+<SCRIPT language="JavaScript" type="text/javascript">
+<!--
+
+document.write('<SCR'+'IPT src="http://avpa.dzone.com/servlet/view/dynamic/javascript/zone?zid=159&pid=0&random='+Math.floor(89999999*Math.random()+10000000)+'&millis='+new Date().getTime()+'" language="JavaScript" type="text/javascript"></SCR'+'IPT>');
+//-->
+</SCRIPT>
+
+
+<!-- END ADVERTPRO ADVANCED CODE BLOCK -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="verify-v1" content="sRrsnp60jX39dJ2IzX0W8rdbysZxw1dtKQJw3ZMyLp0=" />
+ <META name="y_key" content="5dfaa1b1f5151c5a" />
+<title>dzone.com - fresh links for developers</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="/links/scripts/prototype.js.h-1594678674.pack" charset="utf-8"></script> 
+    <script type="text/javascript" src="/links/combined.js.h-1031510486.pack" charset="utf-8"></script>
+<script type="text/javascript">
+    jQuery.noConflict();    
+</script>
+<script type="text/javascript">
+  function backButtonStored() {
+
+  }
+
+  function loadPreviousURL() {
+    LinkManager.storePreviousURL("" + window.location, backButtonStored);
+  }
+</script>
+<link title="dzone" type="application/opensearchdescription+xml" rel="search" href="http://www.dzone.com/links/DZone-opensearch.xml"/>
+
+    <link rel="stylesheet" type="text/css" href="http://cdn.dzone.com/links/combined.css.h196481679.pack" charset="utf-8"/>
+  
+<link rel="stylesheet" type="text/css" href="http://cdn.dzone.com/links/themes/reader/css/linkblock.css.h-1474408415.pack" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.dzone.com/links/themes/reader/css/dzone-table-style-theme.css.h1147877383.pack" charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.dzone.com/links/themes/reader/css/dzone-table-style.css.h891285665.pack" charset="utf-8"/>
+    <!-- "/css/dzone-table.css" -->
+
+
+
+
+
+    
+
+
+
+    
+<script>
+    if(true){
+        jQuery(function(){
+           var m = window.location.search.match(/p=(\d+)/);
+           var curPage = m ? parseInt(m[1]) : 1;
+           var loading = false;
+
+           jQuery("#content").scroll(function(){
+               if ( curPage >= 1 && !loading && this.scrollHeight -
+                       this.scrollTop - this.offsetHeight < this.offsetHeight ) {
+                   loading = true;
+                   if ((25*curPage) < 101590) {
+                        DWRUtil.setValue("scrollStats", 25*(curPage+1) + " of " + 101590);
+                    } else {
+                        DWRUtil.setValue("scrollStats", 101590);
+                    }
+                   $("progressIndicator").style.display="block";
+                   jQuery.ajax({
+                       type: "GET",
+                       dataType: "html",
+                       url: window.location + (window.location.search != '' ? "&" : "?") + "type=html&p=" + ( ++curPage ),
+                       success: function( html ){
+                           html = jQuery.trim( html );
+
+                           if ( html ) {
+                               jQuery("#content-inner").append( html );
+                               
+//                             }
+                           } else
+                               curPage = 0;
+                       },
+                       complete: function(){
+                           loading = false;
+//                         alert(window.location.pathname + (window.location.search != '' ? ""+ window.location.search +"&" : "?") + "p=" + ( curPage ))
+                           pageTracker._trackPageview(window.location.pathname + (window.location.search != '' ? ""+ window.location.search +"&" : "?") + "p=" + ( curPage ));
+                           $("progressIndicator").style.display="none";
+                       }
+                   });
+               }
+           });
+        });
+    }
+</script>
+
+
+    
+  
+    <link rel="alternate" type="application/rss+xml"
+          title="Popular links: All RSS Feed"
+          href="http://www.dzone.com/links/feed/frontpage/rss.xml"/>
+  
+  
+  
+    <script type="text/javascript">var logged = false</script>
+      <script type="text/javascript">var openid = false</script>      
+  
+  <script type="text/javascript" xml:space="preserve">
+    function OLcmdExT1() {
+     return overlib( OLresponseAJAX,
+     WRAP);
+    }
+  </script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/2916070/dz_300x250_sidebar', [300, 250], 'mediumRect').addService(googletag.pubads());
+
+
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+
+</head>
+
+
+<body style="min-width:768px;" onload="loadPreviousURL()">
+ <!-- Start of Woopra Code -->
+    <script type="text/javascript">
+    function woopraReady(tracker) {
+        tracker.setDomain('dzone.com');
+        tracker.setIdleTimeout(300000);
+
+        
+
+        tracker.track();
+        return false;
+    }
+    (function() {
+        var wsc = document.createElement('script');
+        wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+        wsc.type = 'text/javascript';
+        wsc.async = true;
+        var ssc = document.getElementsByTagName('script')[0];
+        ssc.parentNode.insertBefore(wsc, ssc);
+    })();
+    </script>
+    <!-- End of Woopra Code -->
+<div id="globalmenu">
+
+  <ul class="pureCssMenu pureCssMenum">
+	<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/">Home</a></li>
+	<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/mz/"><span>Microzones</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul class="pureCssMenum">
+<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/mz/cloud">Cloud</a></li>
+		<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/mz/nosql">NoSQL</a></li>
+		<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/mz/html5">HTML5</a></li>
+		<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/mz/devops">DevOps</a></li>
+        <li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/mz/solr-lucene">Solr-Lucene</a></li>
+        <li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/mz/windowsphone7">Windows Phone</a></li>
+<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/mz/python">Python</a></li>
+<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/mz/dotnet">.NET</a></li>
+        
+	
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+	<li class="pureCssMenui"><a class="pureCssMenui" href="#"><span>Zones</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul class="pureCssMenum">
+        <li class="pureCssMenui"><a class="pureCssMenui" href="http://agile.dzone.com/">Agile Zone</a></li>
+        <li class="pureCssMenui"><a class="pureCssMenui" href="http://mobile.dzone.com/">Mobile Zone</a></li>
+	
+        <li class="pureCssMenui"><a class="pureCssMenui" href="http://java.dzone.com/">Javalobby</a></li>
+        <li class="pureCssMenui"><a class="pureCssMenui" href="http://css.dzone.com/">Web Builder Zone</a></li>
+        <li class="pureCssMenui"><a class="pureCssMenui" href="#"><span>IDES & Tools</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul class="pureCssMenum">
+			<li class="pureCssMenui"><a class="pureCssMenui" href="http://eclipse.dzone.com/">Eclipse Zone</a></li>
+			<li class="pureCssMenui"><a class="pureCssMenui" href="http://jetbrains.dzone.com/">JetBrains Zone</a></li>
+			<li class="pureCssMenui"><a class="pureCssMenui" href="http://netbeans.dzone.com/">NetBeans Zone</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+        <li class="pureCssMenui"><a class="pureCssMenui" href="#"><span>Languages</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+		<ul class="pureCssMenum">
+			<li class="pureCssMenui"><a class="pureCssMenui" href="http://groovy.dzone.com/">Groovy Zone</a></li>
+		
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+		<li class="pureCssMenui"><a class="pureCssMenui" href="http://architects.dzone.com/">Architects Zone</a></li>
+		<li class="pureCssMenui"><a class="pureCssMenui" href="http://books.dzone.com/">Book Zone</a></li>
+        <li class="pureCssMenui"><a class="pureCssMenui" href="http://server.dzone.com/">Server Zone</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+	<li class="pureCssMenui"><a class="pureCssMenui" href="http://library.dzone.com/">Library</a></li>
+	<li class="pureCssMenui"><a class="pureCssMenui" href="http://refcardz.dzone.com/">Refcardz</a></li>
+	<li class="pureCssMenui"><a class="pureCssMenui" href="http://itquestions.com/">ITQuestions</a></li>
+	<li class="pureCssMenui"><a class="pureCssMenui" href="http://snippets.dzone.com/">Snippets</a></li>
+	<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/links/about.jsp"><span>About</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul class="pureCssMenum">
+		<li class="pureCssMenui"><a class="pureCssMenui" href="/links/about.jsp">About DZone</a></li>
+		<li class="pureCssMenui"><a class="pureCssMenui" href="/links/buttons.jsp">Tools & Buttons</a></li>
+		<li class="pureCssMenui"><a class="pureCssMenui" href="http://meta.dzone.com">Send feedback</a></li>
+		<li class="pureCssMenui"><a class="pureCssMenui" href="http://www.dzone.com/page/advertise">Advertising</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+</ul>
+
+    <div id="mh_search" class="ipad-none">
+        
+        <form method="get" action="/links/search.html" id="headerSearch">
+            <input type="text" size="20" name="query" accesskey="2" id="mh_searchQuery" class="ipad-none"
+                   onblur="if(this.value=='') this.value=unescape('Search DZone...').stripScripts().stripTags();"
+                   onfocus="if(this.value=='Search DZone...') this.value=unescape('').stripScripts().stripTags();"
+                   value="Search DZone..."/>
+            <input type="image" id="mh_searchSubmit"  class="ipad-none" src="http://cdn.dzone.com/links/themes/reader/images/magnify.gif" alt="Submit"/>
+        </form>
+    </div>
+
+
+
+    <ul id="mh_login">
+    
+    
+       <li>
+        <!-- Login Starts Here -->
+        <div id="loginContainer">
+            <a href="#" id="loginButton"><span>Log in</span><em></em></a>
+            <div style="clear:both"></div>
+            <div id="loginBox">
+                <form id="loginForm" action="/links/j_acegi_security_check" method="post">
+
+                    <fieldset id="body">
+                        <fieldset>
+                            <label>Username</label>
+                            <input type="text" name="j_username" id="email" />
+                        </fieldset>
+                        <fieldset>
+                            <label for="j_password">Password</label>
+                            <input type="password" name="j_password" id="password" />
+
+                        </fieldset>
+                        <input type="submit" id="login" value="Sign in"/>
+                        <label for="checkbox"><input type="checkbox" id="checkbox" checked name="_acegi_security_remember_me" />Remember me</label>
+                    </fieldset>
+                    <span><a id="forgotpassword" href="http://www.dzone.com/user/password">Forgot your password?</a></span>
+                </form>
+            </div>
+        </div>
+        </li>
+        <!-- Login Ends Here -->
+
+      <li><a href="http://www.dzone.com/user/register?dz=true&t=1334837428723">Join DZone</a></li>
+      <li><a href="/links/whyjoin.jsp">Why join?</a></li>
+    
+  </ul>
+
+</div>
+<div id="leaderboard" style="display: none;">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('leaderboard'); });
+</script>
+</div>
+
+<div id="left">
+  <div id="site_logo">
+    <img width="209" height="50" onclick="window.location='/links/';" src="/links/themes/reader/images/dzlogo-tagline-small.gif"
+         alt="DZone Logo"/>
+  </div>
+
+  
+    <div id="followButtons" style="margin-top: 12px;">
+        <a href="http://feeds.dzone.com/dzone/frontpage" target="_blank" title="Subscribe to DZone's Popular Links feed"><img width="32" height="32" style="margin-right: 5px;" src="http://cdn.dzone.com/links/themes/reader/images/actions/feed-32x32.png" border="0"></a>
+        <a href="http://www.linkedin.com/groups?gid=696877&trk=hb_side_g" target="_blank" title="Join the DZone LinkedIn group"><img width="32" height="32" style="margin-right: 5px;" src="http://cdn.dzone.com/links/themes/reader/images/actions/linkedin-32x32.png" border="0"></a>
+        <a href="http://twitter.com/dzone" title="Follow DZone on Twitter" target="_blank"><img width="32" height="32" style="margin-right: 5px;" src="http://cdn.dzone.com/links/themes/reader/images/actions/twitter-32x32.png" border="0"></a>
+        <a href="http://www.facebook.com/home.php?#/pages/DZone/259639764711?ref=sgm" target="_blank" title="Become a DZone fan on Facebook"><img width="32" height="32" style="margin-right: 5px;" src="http://cdn.dzone.com/links/themes/reader/images/actions/facebook-32x32.png" border="0"></a>
+        <a href="mailto:feedback@dzone.com" title="Email DZone"><img width="32" height="32" style="margin-right: 5px;" src="http://cdn.dzone.com/links/themes/reader/images/actions/email-32x32.png" border="0"></a>       
+        <a href="#" onclick="startOlark()" style="display: none" id="available-button"><img src="http://cdn.dzone.com/static/images/livesupport-online.png"></a>
+        <a href="#" onclick="startOlark()" style="display: none" id="away-button"><img src="http://cdn.dzone.com/static/images/livesupport-offline.png"></a>
+    </div>
+
+    <div id="sidebarTabs" class="tabber"  >
+       
+    <div id="sidebarPopular" class="tabbertab" title="Top Links">
+       <a class="nextprev" onclick="goToStartOfPopular(7); return false;" href="javascript:void(0);" id="popularFirst">&#171;&#171;</a>
+       <a class="nextprev" onclick="nextPopularLinks(7);return false;" href="javascript:void(0);" id="popularNext">Next &#187;</a>
+       <a class="nextprev" onclick="previousPopularLinks(7);return false;" href="javascript:void(0);" id="popularPrevious">&#171; Previous</a>
+       <ul id="popularLinks">
+         
+            
+           <script>
+           if (popularPage == 1) {
+                $("popularPrevious").addClassName("disabled")
+                $("popularFirst").addClassName("disabled")
+            }
+           </script>
+            
+                <li><em>1.</em> <a href="/links/12_ready_to_be_sliced_psd_website_templates.html?ref=ps">12 Ready to Be Sliced PSD Website Templates</a></li>
+            
+                <li><em>2.</em> <a href="/links/import_continuous_delivery_part_1_agile_processes.html?ref=ps">Import Continuous Delivery – Part 1: Agile Processes taken to the Next Level</a></li>
+            
+                <li><em>3.</em> <a href="/links/software_end_of_life_quicksand.html?ref=ps">Software End of Life: Quicksand</a></li>
+            
+                <li><em>4.</em> <a href="/links/larry_ellison_i_dont_know_if_java_is_free.html?ref=ps">Larry Ellison: I don't know if Java is free</a></li>
+            
+                <li><em>5.</em> <a href="/links/selection_of_29_fontface_fonts_to_use_on_your_web.html?ref=ps">Selection Of 29 @font-face Fonts To Use On Your Websites</a></li>
+            
+                <li><em>6.</em> <a href="/links/polaroid_is_expected_to_launch_android_tablet_wit.html?ref=ps">Polaroid is expected to Launch Android Tablet with Glasses-Free 3D Display</a></li>
+            
+                <li><em>7.</em> <a href="/links/tools_to_make_easy_and_fast_web_design.html?ref=ps">Tools to Make Easy and Fast Web Design</a></li>
+            
+           
+       </ul>
+    </div>
+           
+ 
+ 
+ 
+ <div id="sidebarNewest" class="tabbertab" title="Rising Links">
+      <a class="nextprev" onclick="goToStartOfNewest(7); return false;" href="javascript:void(0);" id="newestFirst">&#171;&#171;</a>
+      <a class="nextprev" onclick="nextNewestLinks(7);return false;" href="javascript:void(0);" id="newestNext">Next &#187;</a>
+      <a class="nextprev" onclick="previousNewestLinks(7);return false;" href="javascript:void(0);" id="newestPrevious">&#171; Previous</a>
+      <ul id="newestLinks">
+        <script>
+            if (newestPage == 1) {
+                $("newestPrevious").addClassName("disabled")
+                $("newestFirst").addClassName("disabled")
+            }
+        </script>
+         
+          
+              <li>
+            <a class="minivwidget minidown
+            " href="#" id="vwidgetdown-779305"
+                
+                  onclick="showLoginDialog(779305, null); return false;"
+                
+                
+              >
+              <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a class="minivwidget miniup" id="vwidgetup-779305"
+                
+                  onclick="showLoginDialog(779305, null); return false"
+                
+                
+            >
+            <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a href='/links/clojure_14_released_whats_new.html?ref=rs'>Clojure 1.4 Released!  What's New?</a></li>
+          
+              <li>
+            <a class="minivwidget minidown
+            " href="#" id="vwidgetdown-779211"
+                
+                  onclick="showLoginDialog(779211, null); return false;"
+                
+                
+              >
+              <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a class="minivwidget miniup" id="vwidgetup-779211"
+                
+                  onclick="showLoginDialog(779211, null); return false"
+                
+                
+            >
+            <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a href='/links/memory_efficient_java_mission_impossible.html?ref=rs'>Memory Efficient Java - Mission Impossible?</a></li>
+          
+              <li>
+            <a class="minivwidget minidown
+            " href="#" id="vwidgetdown-779335"
+                
+                  onclick="showLoginDialog(779335, null); return false;"
+                
+                
+              >
+              <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a class="minivwidget miniup" id="vwidgetup-779335"
+                
+                  onclick="showLoginDialog(779335, null); return false"
+                
+                
+            >
+            <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a href='/links/recent_updates_for_numpy_on_pypy.html?ref=rs'>Recent Updates for NumPy on PyPy</a></li>
+          
+              <li>
+            <a class="minivwidget minidown
+            " href="#" id="vwidgetdown-778857"
+                
+                  onclick="showLoginDialog(778857, null); return false;"
+                
+                
+              >
+              <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a class="minivwidget miniup" id="vwidgetup-778857"
+                
+                  onclick="showLoginDialog(778857, null); return false"
+                
+                
+            >
+            <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a href='/links/twikural_my_app_engine_project_that_delivers_you.html?ref=rs'>Twikural - My App Engine Project that Delivers You Daily Thirukural Poetry</a></li>
+          
+              <li>
+            <a class="minivwidget minidown
+            " href="#" id="vwidgetdown-779327"
+                
+                  onclick="showLoginDialog(779327, null); return false;"
+                
+                
+              >
+              <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a class="minivwidget miniup" id="vwidgetup-779327"
+                
+                  onclick="showLoginDialog(779327, null); return false"
+                
+                
+            >
+            <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a href='/links/pushing_html5_video_content_over_coldfusion_webso.html?ref=rs'>Pushing HTML5 Video Content over ColdFusion WebSockets</a></li>
+          
+              <li>
+            <a class="minivwidget minidown
+            " href="#" id="vwidgetdown-779341"
+                
+                  onclick="showLoginDialog(779341, null); return false;"
+                
+                
+              >
+              <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a class="minivwidget miniup" id="vwidgetup-779341"
+                
+                  onclick="showLoginDialog(779341, null); return false"
+                
+                
+            >
+            <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a href='/links/visualize_hive_data_sources_in_hadoop_on_azure_us.html?ref=rs'>Visualize Hive Data Sources in Hadoop on Azure Using Excel 2010 and the Hive ODBC Driver</a></li>
+          
+              <li>
+            <a class="minivwidget minidown
+            " href="#" id="vwidgetdown-779303"
+                
+                  onclick="showLoginDialog(779303, null); return false;"
+                
+                
+              >
+              <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a class="minivwidget miniup" id="vwidgetup-779303"
+                
+                  onclick="showLoginDialog(779303, null); return false"
+                
+                
+            >
+            <img src="http://cdn.dzone.com/links/images/std/1trans.gif" height="16" width="16">
+            </a>
+            <a href='/links/getting_all_stored_items_in_an_indexeddb_objectst.html?ref=rs'>Getting All Stored Items in an IndexedDB objectStore</a></li>
+          
+      </ul>
+    </div>
+    <div id="sidebarTools" class="tabbertab" title="Tag Cloud">
+<div id="tagCloud" class="tagCloud">
+     
+       <h3>Browse  links by tag</h3>
+       <a href="/" class="largeTag">all</a> 
+       <a href="/links/tag/.net.html" class="largeTag">.net</a> <a href="/links/tag/agile.html" class="mediumTag">agile</a> <a href="/links/tag/ajax.html" class="smallTag">ajax</a> <a href="/links/tag/announcement.html" class="mediumTag">announcement</a> <a href="/links/tag/apple.html" class="mediumTag">apple</a> <a href="/links/tag/books.html" class="smallTag">books</a> <a href="/links/tag/c-and-cpp.html" class="mediumTag">c-and-cpp</a> <a href="/links/tag/cloud.html" class="mediumTag">cloud</a> <a href="/links/tag/coldfusion.html" class="smallestTag">coldfusion</a> <a href="/links/tag/css-html.html" class="mediumTag">css-html</a> <a href="/links/tag/database.html" class="mediumTag">database</a> <a href="/links/tag/eclipse.html" class="smallTag">eclipse</a> <a href="/links/tag/flash-flex.html" class="smallestTag">flash-flex</a> <a href="/links/tag/frameworks.html" class="largeTag">frameworks</a> <a href="/links/tag/games.html" class="smallTag">games</a> <a href="/links/tag/groovy.html" class="smallestTag">groovy</a> <a href="/links/tag/gui.html" class="mediumTag">gui</a> <a href="/links/tag/hardware.html" class="smallTag">hardware</a> <a href="/links/tag/how-to.html" class="largestTag">how-to</a> <a href="/links/tag/humor.html" class="smallTag">humor</a> <a href="/links/tag/java.html" class="largestTag">java</a> <a href="/links/tag/javascript.html" class="largeTag">javascript</a> <a href="/links/tag/methodology.html" class="mediumTag">methodology</a> <a href="/links/tag/microsoft.html" class="largeTag">microsoft</a> <a href="/links/tag/mobile.html" class="largeTag">mobile</a> <a href="/links/tag/news.html" class="largeTag">news</a> <a href="/links/tag/open source.html" class="largestTag">open&nbsp;source</a> <a href="/links/tag/opinion.html" class="largestTag">opinion</a> <a href="/links/tag/other languages.html" class="mediumTag">other&nbsp;languages</a> <a href="/links/tag/perl.html" class="smallestTag">perl</a> <a href="/links/tag/php.html" class="mediumTag">php</a> <a href="/links/tag/python.html" class="mediumTag">python</a> <a href="/links/tag/research.html" class="mediumTag">research</a> <a href="/links/tag/reviews.html" class="largeTag">reviews</a> <a href="/links/tag/ria.html" class="mediumTag">ria</a> <a href="/links/tag/ruby.html" class="mediumTag">ruby</a> <a href="/links/tag/security.html" class="mediumTag">security</a> <a href="/links/tag/server.html" class="mediumTag">server</a> <a href="/links/tag/standards.html" class="mediumTag">standards</a> <a href="/links/tag/tools.html" class="largestTag">tools</a> <a href="/links/tag/trends.html" class="mediumTag">trends</a> <a href="/links/tag/unix-linux.html" class="mediumTag">unix-linux</a> <a href="/links/tag/usability.html" class="mediumTag">usability</a> <a href="/links/tag/web 2.0.html" class="mediumTag">web&nbsp;2.0</a> <a href="/links/tag/web design.html" class="largeTag">web&nbsp;design</a> <a href="/links/tag/web services.html" class="mediumTag">web&nbsp;services</a> <a href="/links/tag/windows.html" class="mediumTag">windows</a> <a href="/links/tag/xml.html" class="smallTag">xml</a> 
+       
+     
+ </div>
+    
+  </div>
+           </div>
+ <div id="refcardzPromo" style="margin-left: 7px;">
+     
+    <div id="refbox_container">
+
+<style type="text/css">
+#refbox_container table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+
+}
+#refbox_container td {
+      }
+#refbox_container ol {
+	list-style-position: inside;
+	margin: 0px;
+	padding: 0px;
+	 }
+#refbox_container li {
+	padding-bottom: 3px; }
+
+.refbox-header {
+	padding: 0px;
+    background-color:#E5ECF9;
+	}
+.refbox-footer {
+	font-size: 13px;
+	color: #444;
+	background:#E5ECF9;
+}
+.refbox-spotlight{
+    font-size: 16px;
+    color: #444;
+    background:#E5ECF9;
+}
+</style>
+
+
+
+<table width="300" cellpadding="0" cellspacing="0" class="refbox">
+<tr><td colspan="2" class="refbox-header"><a href="http://refcardz.dzone.com/?oid=sb001"><img src="http://cdn.dzone.com/sites/all/modules/dzone/assets/refbox-header.png" border="0" /></a></td></tr>
+
+<tr><td colspan="2" class="refbox-spotlight" style="padding:6px 6px 6px 6px; background-color:"><a href="http://refcardz.dzone.com/refcardz/birt37">BIRT 3.7</a></td></tr>
+<tr><td colspan="2" style="background:#E5ECF9; padding:0px 6px 6px 6px;"> Written by: Michael Williams </td> </tr>
+
+<tr><td colspan="2" style="padding:6px;">
+
+  <strong>Featured Refcardz:</strong> <strong style="margin-left:23px;">Top Refcardz:</strong></td></tr>
+
+<tr><td width="141" style="padding-bottom:6px; padding-left:6px;">
+
+    <ol>
+    <!--     -->                         <li><a href = "http://refcardz.dzone.com/refcardz/eclipse-tools-spring">Eclipse for Spring</a></li>
+            <!--     -->                         <li><a href = "http://refcardz.dzone.com/refcardz/mvvm-design-pattern-formula">MVVM Pattern</a></li>
+            <!--     -->                         <li><a href = "http://refcardz.dzone.com/refcardz/getting-started-eclipse-rcp">Eclipse RCP</a></li>
+            <!--     -->                         <li><a href = "http://refcardz.dzone.com/refcardz/developing-silverlight">Silverlight/WP7</a></li>
+            <!--     -->                         <li><a href = "http://refcardz.dzone.com/refcardz/eclipse-plug-development">Eclipse Plug-ins</a></li>
+                </ol></td><td width="150" style="padding-bottom:6px;"><ol>
+                            <li><a href = "http://refcardz.dzone.com/refcardz/birt37">BIRT 3.7</a></li>
+                                    <li><a href = "http://refcardz.dzone.com/refcardz/getting-started-ajax">Ajax</a></li>
+                                    <li><a href = "http://refcardz.dzone.com/refcardz/getting-started-eclipse">Eclipse</a></li>
+                                    <li><a href = "http://refcardz.dzone.com/refcardz/jquery-selectors">jQuery Selectors</a></li>
+                                    <li><a href = "http://refcardz.dzone.com/refcardz/spring-configuration">Spring Config.</a></li>
+                </ol>
+
+</td></tr>
+
+ <tr>
+  <td colspan="2" class="refbox-footer" style="padding:6px;">
+
+
+    150+ Refcardz Available &middot;
+  <a href="http://refcardz.dzone.com/?oid=sb001">Get them all</a></td>
+ </tr>
+
+</table>
+</div>
+
+
+
+
+ </div>
+<script type="text/javascript">
+var tabberOptions = {manualStartup:true};
+tabberAutomatic(tabberOptions);
+</script>
+
+  <div id="mediumRect"><!--<p>advertisement</p>-->
+	<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('mediumRect'); });
+</script>
+  </div>
+
+</div>
+
+
+<div id="head" style="top: 0">
+  <div id="mh_left">
+    <a href="/links/add.html" onclick="showLoginDialog(null, null); return false;" class="addLink">Add a link</a> |
+    <a href="/links/" id="pop-links-link" class="addVotes">Popular links</a>
+    <a href="/links/queue.html" class="ipad-none addVotes"> | New links</a> |
+    
+    <a href="#" onclick="showLoginDialog(null, null); return false;" class="viewSaved">Saved</a> |
+    <a href="#" onclick="showLoginDialog(null, null); return false;" class="viewShared">Shared</a> |
+    <a href="/links/users/top/promoted.html">Top</a> |
+    <a href="/links/users/online.html">Online</a>
+    
+  </div>
+    <form method="get" action="/links/search.html" id="headerSearchIpad" style="top:-5px;display:none;" hidden>
+        <input type="image" id="mh_searchSubmit_ipad" src="http://cdn.dzone.com/links/themes/reader/images/magnify.gif" alt="Submit"/>
+        <input type="text" size="20" name="query" accesskey="2" id="mh_searchQuery_ipad"
+               onblur="if(this.value=='') this.value=unescape('Search DZone...').stripScripts().stripTags();"
+               onfocus="if(this.value=='Search DZone...') this.value=unescape('').stripScripts().stripTags();"
+               value="Search DZone..."/>
+    </form>
+</div>
+
+<div id="pageTitle" style="top: 0;">
+  <div class="titleTabs">
+  <h1> Popular links: All</h1>
+  
+    <ul>
+       
+      
+      
+        <li><a href="/links/queue.html" >New links (309)</a></li>
+      
+      
+      
+        <li class="htactive"><strong>Popular links</strong></li>
+      
+      <li class="ipad-none rssFeedInfo">        
+          
+                <a href="http://www.dzone.com/links/feed/frontpage/rss.xml"><img src="http://feeds.feedburner.com/~fc/dzone/frontpage?bg=EBF2FD&amp;fg=000000&amp;anim=1" height="26" width="88" style="border:0; margin-right: 4px;" alt="" /></a>
+                
+          
+        
+                    <a title="RSS 2.0" href="/links/feed/frontpage/rss.xml"><img width="24" height="24" src="http://cdn.dzone.com/links/images/icons/feed-icon-24x24.gif"
+                title="RSS 2.0 feed for this page" alt="RSS 2.0 feed for this page"/></a>
+            
+        
+</li>
+    </ul>
+    <br/>
+    </div>
+  
+
+  
+  
+  <p 
+     class="linklistSort" >
+       
+           Latest<em> | </em><a href="?sort=energy">Active</a><em> | </em><a href="?sort=top-today&amp;order=voteCount">Top in 24 hours</a><em> | </em><a href="?sort=top-week&amp;order=voteCount">7 Days</a><em> | </em><a href="?sort=top-month&amp;order=voteCount">30 Days</a><em> | </em><a href="?sort=top-year&amp;order=voteCount">365 Days</a><em> | </em><a href="?sort=top&amp;order=voteCount">All Time</a>
+      
+      
+      
+  </p>
+  
+
+  
+</div>
+
+<div id="content" style="top: 133px;">
+ <div id="content-inner">
+  
+        
+    
+        
+            
+        
+    
+        
+    
+    
+        
+
+
+
+
+
+
+    
+    
+      
+    
+    
+    
+        
+            
+                <div id="entice_prompt" class="warning">
+                    You pick the winners!  <a href="/links/loginLightbox.html" class="lbOn"><b>Login and vote now.</b></a>
+                </div>
+            
+        
+
+
+
+        
+    
+   
+    <!-- Show a message to expose a users's shared links to the public -->
+  
+  
+
+  
+      
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779067"> </a>           
+
+<div class="linkblock frontpage " id="link-779067">
+   
+
+  <div id="thumb_779067" class="thumb">
+      <a onmouseup="track(this, 'iconic_apple_ii_turns_35_years_old', ''); "
+      
+    
+         
+           
+                  href="http://hothardware.com/News/Iconic-Apple-II-Turns-35-Years-Old/">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779067-1334830875000.jpg" class="thumbnail"  alt="Link 779067 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779067', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779067">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779067">      
+      <a id="upcount-779067" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779067, null); return false"
+        
+        
+        >6</a>
+      
+      <a id="downcount-779067" href="#"
+        
+          onclick="showLoginDialog(779067, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'iconic_apple_ii_turns_35_years_old', ''); "
+            
+                 
+                   
+                          href="http://hothardware.com/News/Iconic-Apple-II-Turns-35-Years-Old/" rel="bookmark">
+                  
+            
+        Iconic Apple II Turns 35 Years Old</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/970657.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 970657 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/970657.html">rahuldzone</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Ahothardware.com">hothardware.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 19 / 06:21.
+        
+        
+        
+        
+        
+        Views: 28, Clicks: 193
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            If the Apple II was made of flesh, blood, and bone, it would probably be out shopping a sports car today, one of the many rituals that...&nbsp;<a href='/links/iconic_apple_ii_turns_35_years_old.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Iconic+Apple+II+Turns+35+Years+Old%22+http%3A%2F%2Fdzone.com%2FjCwl" class="twitter">Tweet</a> 
+        <a href="/links/iconic_apple_ii_turns_35_years_old.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779067" onclick="showLoginDialog(779067); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779067" onclick="showLoginDialog(779067); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/apple.html" class="tags" rel="tag">apple</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779243"> </a>           
+
+<div class="linkblock frontpage " id="link-779243">
+   
+
+  <div id="thumb_779243" class="thumb">
+      <a onmouseup="track(this, 'after_hitting_funding_target_in_less_than_24hrs_n', ''); "
+      
+    
+         
+           
+                  href="http://webdev360.com/after-hitting-funding-target-in-less-than-24hrs-new-cyanogenmod-servers-go-online-42047.html">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779243-1334828268000.jpg" class="thumbnail"  alt="Link 779243 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779243', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779243">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779243">      
+      <a id="upcount-779243" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779243, null); return false"
+        
+        
+        >6</a>
+      
+      <a id="downcount-779243" href="#"
+        
+          onclick="showLoginDialog(779243, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'after_hitting_funding_target_in_less_than_24hrs_n', ''); "
+            
+                 
+                   
+                          href="http://webdev360.com/after-hitting-funding-target-in-less-than-24hrs-new-cyanogenmod-servers-go-online-42047.html" rel="bookmark">
+                  
+            
+        After hitting funding target in less than 24hrs, new CyanogenMod servers go online</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/978313.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 978313 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+            <img width="12" height="12" src="http://cdn.dzone.com/links/themes/reader/images/lightbulb_12.gif" title="User is currently online." alt="Online"/>
+        
+        <a href="/links/users/profile/978313.html">louis.goddard</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Awebdev360.com">webdev360.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 19 / 05:37.
+        
+        
+        
+        
+        
+        Views: 39, Clicks: 323
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            “With the contributions, we were able to acquire three Dell R610 servers”, reads an announcement post on the CyanogenMod blog. “Each...&nbsp;<a href='/links/after_hitting_funding_target_in_less_than_24hrs_n.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22After+hitting+funding+target+in+less+than+24hrs%2C+new+CyanogenMod+servers+go+onli...%22+http%3A%2F%2Fdzone.com%2FBDgi" class="twitter">Tweet</a> 
+        <a href="/links/after_hitting_funding_target_in_less_than_24hrs_n.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779243" onclick="showLoginDialog(779243); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779243" onclick="showLoginDialog(779243); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/mobile.html" class="tags" rel="tag">mobile</a>
+                , 
+            
+                <a href="/links/tag/news.html" class="tags" rel="tag">news</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779323"> </a>           
+
+<div class="linkblock frontpage " id="link-779323">
+   
+
+  <div id="thumb_779323" class="thumb">
+      <a onmouseup="track(this, 'riloadr_a_crossbrowser_frameworkindependent_respo', ''); "
+      
+    
+         
+           
+                  href="http://functionn.blogspot.com/2012/04/riloadr-cross-browser-framework.html#.T47STzL7m3E.dzone">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779323-1334826118000.jpg" class="thumbnail"  alt="Link 779323 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779323', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779323">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779323">      
+      <a id="upcount-779323" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779323, null); return false"
+        
+        
+        >6</a>
+      
+      <a id="downcount-779323" href="#"
+        
+          onclick="showLoginDialog(779323, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'riloadr_a_crossbrowser_frameworkindependent_respo', ''); "
+            
+                 
+                   
+                          href="http://functionn.blogspot.com/2012/04/riloadr-cross-browser-framework.html#.T47STzL7m3E.dzone" rel="bookmark">
+                  
+            
+        Riloadr - A Cross-Browser Framework-Independent Responsive Images Loader - Functionn</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/1007897.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/1007897-1333598400000.gif" class="avatar" alt="User 1007897 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/1007897.html">Hirvesh</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Afunctionn.blogspot.com">functionn.blogspot.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 19 / 05:01.
+        
+        
+        
+        
+        
+        Views: 42, Clicks: 218
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            Riloadr is a cross-browser framework-independent responsive images loader.  The goal of this library is to deliver optimized, contextual...&nbsp;<a href='/links/riloadr_a_crossbrowser_frameworkindependent_respo.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Riloadr+-+A+Cross-Browser+Framework-Independent+Responsive+Images+Loader+-+Funct...%22+http%3A%2F%2Fdzone.com%2FNhC6" class="twitter">Tweet</a> 
+        <a href="/links/riloadr_a_crossbrowser_frameworkindependent_respo.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779323" onclick="showLoginDialog(779323); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779323" onclick="showLoginDialog(779323); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/javascript.html" class="tags" rel="tag">javascript</a>
+                , 
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                , 
+            
+                <a href="/links/tag/usability.html" class="tags" rel="tag">usability</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-778933"> </a>           
+
+<div class="linkblock frontpage " id="link-778933">
+   
+
+  <div id="thumb_778933" class="thumb">
+      <a onmouseup="track(this, 'bringing_html5_to_the_spring_petclinic_using_thym', ''); "
+      
+    
+         
+           
+                  href="http://www.thymeleaf.org/petclinic.html">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/778933-1334823767000.jpg" class="thumbnail"  alt="Link 778933 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=778933', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_778933">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-778933">      
+      <a id="upcount-778933" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(778933, null); return false"
+        
+        
+        >12</a>
+      
+      <a id="downcount-778933" href="#"
+        
+          onclick="showLoginDialog(778933, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'bringing_html5_to_the_spring_petclinic_using_thym', ''); "
+            
+                 
+                   
+                          href="http://www.thymeleaf.org/petclinic.html" rel="bookmark">
+                  
+            
+        Bringing HTML5 to the Spring PetClinic using Thymeleaf</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/219642.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 219642 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/219642.html">dfernandez</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Athymeleaf.org">thymeleaf.org</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 19 / 04:22.
+        
+        
+        
+        
+        
+        Views: 153, Clicks: 378
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            Thymeleaf is an elegant Java XML/XHTML/HTML5 template engine, capable of working as a full substitute for JSP. Today a new article has...&nbsp;<a href='/links/bringing_html5_to_the_spring_petclinic_using_thym.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Bringing+HTML5+to+the+Spring+PetClinic+using+Thymeleaf%22+http%3A%2F%2Fdzone.com%2FlpEo" class="twitter">Tweet</a> 
+        <a href="/links/bringing_html5_to_the_spring_petclinic_using_thym.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-778933" onclick="showLoginDialog(778933); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-778933" onclick="showLoginDialog(778933); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/frameworks.html" class="tags" rel="tag">frameworks</a>
+                , 
+            
+                <a href="/links/tag/java.html" class="tags" rel="tag">java</a>
+                , 
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                , 
+            
+                <a href="/links/tag/tools.html" class="tags" rel="tag">tools</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779577"> </a>           
+
+<div class="linkblock frontpage " id="link-779577">
+   
+
+  <div id="thumb_779577" class="thumb">
+      <a onmouseup="track(this, 'client_side_state_management_in_aspnet', ''); "
+      
+    
+         
+           
+                  href="http://theprofessionalspoint.blogspot.in/2012/04/client-side-state-management-in-aspnet.html">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779577-1334822712000.jpg" class="thumbnail"  alt="Link 779577 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779577', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779577">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779577">      
+      <a id="upcount-779577" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779577, null); return false"
+        
+        
+        >5</a>
+      
+      <a id="downcount-779577" href="#"
+        
+          onclick="showLoginDialog(779577, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'client_side_state_management_in_aspnet', ''); "
+            
+                 
+                   
+                          href="http://theprofessionalspoint.blogspot.in/2012/04/client-side-state-management-in-aspnet.html" rel="bookmark">
+                  
+            
+        Client Side State Management in ASP.NET</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/467293.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 467293 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/467293.html">nkpblogger</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Atheprofessionalspoint.blogspot.in">theprofessionalspoint.blogspot.in</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 19 / 04:05.
+        
+        
+        
+        
+        
+        Views: 41, Clicks: 274
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+      
+          State Management in done on client side as well as on server side in ASP.NET. In this article, we will just focus on clinet side state management.
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Client+Side+State+Management+in+ASP.NET%22+http%3A%2F%2Fdzone.com%2F5aay" class="twitter">Tweet</a> 
+        <a href="/links/client_side_state_management_in_aspnet.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779577" onclick="showLoginDialog(779577); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779577" onclick="showLoginDialog(779577); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/.net.html" class="tags" rel="tag">.net</a>
+                , 
+            
+                <a href="/links/tag/methodology.html" class="tags" rel="tag">methodology</a>
+                , 
+            
+                <a href="/links/tag/microsoft.html" class="tags" rel="tag">microsoft</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779613"> </a>           
+
+<div class="linkblock frontpage " id="link-779613">
+   
+
+  <div id="thumb_779613" class="thumb">
+      <a onmouseup="track(this, '18_essential_chrome_extensions_for_web_development', ''); "
+      
+    
+         
+           
+                  href="http://www.queness.com/post/11254/18-essential-chrome-extensions-for-web-development">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779613-1334821850000.jpg" class="thumbnail"  alt="Link 779613 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779613', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779613">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779613">      
+      <a id="upcount-779613" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779613, null); return false"
+        
+        
+        >7</a>
+      
+      <a id="downcount-779613" href="#"
+        
+          onclick="showLoginDialog(779613, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, '18_essential_chrome_extensions_for_web_development', ''); "
+            
+                 
+                   
+                          href="http://www.queness.com/post/11254/18-essential-chrome-extensions-for-web-development" rel="bookmark">
+                  
+            
+         18 Essential Chrome Extensions for Web Development</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/803965.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 803965 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/803965.html">queness</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Aqueness.com">queness.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 19 / 03:50.
+        
+        
+        
+        
+        
+        Views: 45, Clicks: 525
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            Based on the most recent usage share of web browsers, chrome has overtaken firefox and just a few percent behind Internet Explorer, but...&nbsp;<a href='/links/18_essential_chrome_extensions_for_web_development.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22+18+Essential+Chrome+Extensions+for+Web+Development%22+http%3A%2F%2Fdzone.com%2FJALU" class="twitter">Tweet</a> 
+        <a href="/links/18_essential_chrome_extensions_for_web_development.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779613" onclick="showLoginDialog(779613); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779613" onclick="showLoginDialog(779613); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/css-html.html" class="tags" rel="tag">css-html</a>
+                , 
+            
+                <a href="/links/tag/gui.html" class="tags" rel="tag">gui</a>
+                , 
+            
+                <a href="/links/tag/trends.html" class="tags" rel="tag">trends</a>
+                , 
+            
+                <a href="/links/tag/web design.html" class="tags" rel="tag">web design</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779527"> </a>           
+
+<div class="linkblock frontpage " id="link-779527">
+   
+
+  <div id="thumb_779527" class="thumb">
+      <a onmouseup="track(this, 'lucene_overview_part_one_creating_the_index', ''); "
+      
+    
+         
+           
+                  href="http://www.javacodegeeks.com/2012/04/lucene-overview-part-one-creating-index.html">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779527-1334819354000.jpg" class="thumbnail"  alt="Link 779527 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779527', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779527">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779527">      
+      <a id="upcount-779527" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779527, null); return false"
+        
+        
+        >6</a>
+      
+      <a id="downcount-779527" href="#"
+        
+          onclick="showLoginDialog(779527, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'lucene_overview_part_one_creating_the_index', ''); "
+            
+                 
+                   
+                          href="http://www.javacodegeeks.com/2012/04/lucene-overview-part-one-creating-index.html" rel="bookmark">
+                  
+            
+        Lucene Overview Part One: Creating the Index</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/1006251.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 1006251 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/1006251.html">nikosmar</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Ajavacodegeeks.com">javacodegeeks.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 19 / 03:09.
+        
+        
+        
+        
+        
+        Views: 67, Clicks: 484
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            I've recently been working with the open source search engine Lucene. I'm no expert, but since I have just pored through some rather...&nbsp;<a href='/links/lucene_overview_part_one_creating_the_index.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Lucene+Overview+Part+One%3A+Creating+the+Index%22+http%3A%2F%2Fdzone.com%2FKiKo" class="twitter">Tweet</a> 
+        <a href="/links/lucene_overview_part_one_creating_the_index.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779527" onclick="showLoginDialog(779527); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779527" onclick="showLoginDialog(779527); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/java.html" class="tags" rel="tag">java</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779233"> </a>           
+
+<div class="linkblock frontpage " id="link-779233">
+   
+
+  <div id="thumb_779233" class="thumb">
+      <a onmouseup="track(this, 'bdd_to_the_rescue_2', ''); "
+      
+    
+         
+           
+                  href="http://www.dotnetcodegeeks.com/2012/04/bdd-to-rescue.html">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779233-1334817505000.jpg" class="thumbnail"  alt="Link 779233 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779233', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779233">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779233">      
+      <a id="upcount-779233" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779233, null); return false"
+        
+        
+        >5</a>
+      
+      <a id="downcount-779233" href="#"
+        
+          onclick="showLoginDialog(779233, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'bdd_to_the_rescue_2', ''); "
+            
+                 
+                   
+                          href="http://www.dotnetcodegeeks.com/2012/04/bdd-to-rescue.html" rel="bookmark">
+                  
+            
+        BDD to the rescue</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/293099.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 293099 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/293099.html">iliastsagklis</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Adotnetcodegeeks.com">dotnetcodegeeks.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 19 / 02:38.
+        
+        
+        
+        
+        
+        Views: 80, Clicks: 422
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            BDD can help you in more than one way. First and foremost it removes the ambiguity from the requirements; but taking it a step further...&nbsp;<a href='/links/bdd_to_the_rescue_2.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22BDD+to+the+rescue%22+http%3A%2F%2Fdzone.com%2F0BSO" class="twitter">Tweet</a> 
+        <a href="/links/bdd_to_the_rescue_2.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779233" onclick="showLoginDialog(779233); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779233" onclick="showLoginDialog(779233); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/.net.html" class="tags" rel="tag">.net</a>
+                , 
+            
+                <a href="/links/tag/java.html" class="tags" rel="tag">java</a>
+                , 
+            
+                <a href="/links/tag/methodology.html" class="tags" rel="tag">methodology</a>
+                , 
+            
+                <a href="/links/tag/opinion.html" class="tags" rel="tag">opinion</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779449"> </a>           
+
+<div class="linkblock frontpage " id="link-779449">
+   
+
+  <div id="thumb_779449" class="thumb">
+      <a onmouseup="track(this, 'which_one_you_prefer_photoshop_or_fireworks', ''); "
+      
+    
+         
+           
+                  href="http://www.xpertdeveloper.com/2012/04/photoshop-vs-fireworks/">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779449-1334810030000.jpg" class="thumbnail"  alt="Link 779449 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779449', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779449">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779449">      
+      <a id="upcount-779449" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779449, null); return false"
+        
+        
+        >6</a>
+      
+      <a id="downcount-779449" href="#"
+        
+          onclick="showLoginDialog(779449, null); return false;"
+          class="downcount"
+        
+        
+          >1</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'which_one_you_prefer_photoshop_or_fireworks', ''); "
+            
+                 
+                   
+                          href="http://www.xpertdeveloper.com/2012/04/photoshop-vs-fireworks/" rel="bookmark">
+                  
+            
+        Which one you prefer? Photoshop or Fireworks?</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/813133.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/813133-1322370000000.gif" class="avatar" alt="User 813133 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/813133.html">xpertdev</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Axpertdeveloper.com">xpertdeveloper.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 19 / 00:33.
+        
+        
+        
+        
+        
+        Views: 75, Clicks: 399
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+      
+          Which one you prefer for design from Photoshop and Fireworks?
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Which+one+you+prefer%3F+Photoshop+or+Fireworks%3F%22+http%3A%2F%2Fdzone.com%2F2XFR" class="twitter">Tweet</a> 
+        <a href="/links/which_one_you_prefer_photoshop_or_fireworks.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779449" onclick="showLoginDialog(779449); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779449" onclick="showLoginDialog(779449); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                , 
+            
+                <a href="/links/tag/opinion.html" class="tags" rel="tag">opinion</a>
+                , 
+            
+                <a href="/links/tag/reviews.html" class="tags" rel="tag">reviews</a>
+                , 
+            
+                <a href="/links/tag/web design.html" class="tags" rel="tag">web design</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779271"> </a>           
+
+<div class="linkblock frontpage " id="link-779271">
+   
+
+  <div id="thumb_779271" class="thumb">
+      <a onmouseup="track(this, 'what_is_ui_kit_and_why_you_should_use_it', ''); "
+      
+    
+         
+           
+                  href="http://designmodo.com/ui-kit-use/">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779271-1334805228000.jpg" class="thumbnail"  alt="Link 779271 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779271', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779271">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779271">      
+      <a id="upcount-779271" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779271, null); return false"
+        
+        
+        >9</a>
+      
+      <a id="downcount-779271" href="#"
+        
+          onclick="showLoginDialog(779271, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'what_is_ui_kit_and_why_you_should_use_it', ''); "
+            
+                 
+                   
+                          href="http://designmodo.com/ui-kit-use/" rel="bookmark">
+                  
+            
+        What is UI Kit and Why You Should Use it</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/955671.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 955671 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/955671.html">twoopl</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Adesignmodo.com">designmodo.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 23:13.
+        
+        
+        
+        
+        
+        Views: 172, Clicks: 608
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            UI Kits are files (usually PSD's, but the premium ones comes with a lot of additional stuff, as you can see above) with a lot of useful...&nbsp;<a href='/links/what_is_ui_kit_and_why_you_should_use_it.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22What+is+UI+Kit+and+Why+You+Should+Use+it%22+http%3A%2F%2Fdzone.com%2FhVTE" class="twitter">Tweet</a> 
+        <a href="/links/what_is_ui_kit_and_why_you_should_use_it.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779271" onclick="showLoginDialog(779271); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779271" onclick="showLoginDialog(779271); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/web design.html" class="tags" rel="tag">web design</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779165"> </a>           
+
+<div class="linkblock frontpage " id="link-779165">
+   
+
+  <div id="thumb_779165" class="thumb">
+      <a onmouseup="track(this, 'how_long_will_it_take', ''); "
+      
+    
+         
+           
+                  href="http://www.elementool.com/blog/?p=166&amp;referral=dzone">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779165-1334801524000.jpg" class="thumbnail"  alt="Link 779165 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779165', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779165">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779165">      
+      <a id="upcount-779165" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779165, null); return false"
+        
+        
+        >12</a>
+      
+      <a id="downcount-779165" href="#"
+        
+          onclick="showLoginDialog(779165, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'how_long_will_it_take', ''); "
+            
+                 
+                   
+                          href="http://www.elementool.com/blog/?p=166&amp;referral=dzone" rel="bookmark">
+                  
+            
+        How Long Will It Take?</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/1011787.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/1011787-1334721600000.gif" class="avatar" alt="User 1011787 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/1011787.html">Elementool</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Aelementool.com">elementool.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 22:12.
+        
+        
+        
+        
+        
+        Views: 158, Clicks: 612
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            We all hear this question at least once a day: "How long will it take?"
+Estimating how long it takes to accomplish a task doesn't have...&nbsp;<a href='/links/how_long_will_it_take.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22How+Long+Will+It+Take%3F%22+http%3A%2F%2Fdzone.com%2F9jcr" class="twitter">Tweet</a> 
+        <a href="/links/how_long_will_it_take.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779165" onclick="showLoginDialog(779165); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779165" onclick="showLoginDialog(779165); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/agile.html" class="tags" rel="tag">agile</a>
+                , 
+            
+                <a href="/links/tag/how-to.html" class="tags" rel="tag">how-to</a>
+                , 
+            
+                <a href="/links/tag/methodology.html" class="tags" rel="tag">methodology</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779325"> </a>           
+
+<div class="linkblock frontpage " id="link-779325">
+   
+
+  <div id="thumb_779325" class="thumb">
+      <a onmouseup="track(this, 'difference_between_pageinit_pageload_and_pageprer', ''); "
+      
+    
+         
+           
+                  href="http://theprofessionalspoint.blogspot.in/2012/04/difference-between-pageinit-pageload.html">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779325-1334799299000.jpg" class="thumbnail"  alt="Link 779325 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779325', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779325">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779325">      
+      <a id="upcount-779325" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779325, null); return false"
+        
+        
+        >6</a>
+      
+      <a id="downcount-779325" href="#"
+        
+          onclick="showLoginDialog(779325, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'difference_between_pageinit_pageload_and_pageprer', ''); "
+            
+                 
+                   
+                          href="http://theprofessionalspoint.blogspot.in/2012/04/difference-between-pageinit-pageload.html" rel="bookmark">
+                  
+            
+        Difference between page_init, page_load and page_prerender events</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/467293.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 467293 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/467293.html">nkpblogger</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Atheprofessionalspoint.blogspot.in">theprofessionalspoint.blogspot.in</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 21:34.
+        
+        
+        
+        
+        
+        Views: 57, Clicks: 416
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            page_load is the event where most of our work will be done. This event occurs when all objects/controls on the page are created and will...&nbsp;<a href='/links/difference_between_pageinit_pageload_and_pageprer.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Difference+between+page_init%2C+page_load+and+page_prerender+events%22+http%3A%2F%2Fdzone.com%2FNDfm" class="twitter">Tweet</a> 
+        <a href="/links/difference_between_pageinit_pageload_and_pageprer.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779325" onclick="showLoginDialog(779325); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779325" onclick="showLoginDialog(779325); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/.net.html" class="tags" rel="tag">.net</a>
+                , 
+            
+                <a href="/links/tag/microsoft.html" class="tags" rel="tag">microsoft</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779025"> </a>           
+
+<div class="linkblock frontpage " id="link-779025">
+   
+
+  <div id="thumb_779025" class="thumb">
+      <a onmouseup="track(this, 'minijs_a_suite_of_jquery_plugins_written_in_coffe', ''); "
+      
+    
+         
+           
+                  href="http://functionn.blogspot.com/2012/04/minijs-suite-of-jquery-plugins-written.html#.T44iUdHYznk.dzone">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779025-1334783073000.jpg" class="thumbnail"  alt="Link 779025 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779025', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779025">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779025">      
+      <a id="upcount-779025" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779025, null); return false"
+        
+        
+        >5</a>
+      
+      <a id="downcount-779025" href="#"
+        
+          onclick="showLoginDialog(779025, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'minijs_a_suite_of_jquery_plugins_written_in_coffe', ''); "
+            
+                 
+                   
+                          href="http://functionn.blogspot.com/2012/04/minijs-suite-of-jquery-plugins-written.html#.T44iUdHYznk.dzone" rel="bookmark">
+                  
+            
+        MiniJs - A Suite Of jQuery Plugins Written In CoffeeScript - Functionn</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/1007897.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/1007897-1333598400000.gif" class="avatar" alt="User 1007897 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/1007897.html">Hirvesh</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Afunctionn.blogspot.com">functionn.blogspot.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 17:04.
+        
+        
+        
+        
+        
+        Views: 88, Clicks: 515
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            MiniJS is a suite of jQuery plugins written in CoffeeScript. It consists so far, of the following components:
+
+Count - Minimal but...&nbsp;<a href='/links/minijs_a_suite_of_jquery_plugins_written_in_coffe.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22MiniJs+-+A+Suite+Of+jQuery+Plugins+Written+In+CoffeeScript+-+Functionn%22+http%3A%2F%2Fdzone.com%2FC7un" class="twitter">Tweet</a> 
+        <a href="/links/minijs_a_suite_of_jquery_plugins_written_in_coffe.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779025" onclick="showLoginDialog(779025); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779025" onclick="showLoginDialog(779025); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/frameworks.html" class="tags" rel="tag">frameworks</a>
+                , 
+            
+                <a href="/links/tag/javascript.html" class="tags" rel="tag">javascript</a>
+                , 
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-778843"> </a>           
+
+<div class="linkblock frontpage " id="link-778843">
+   
+
+  <div id="thumb_778843" class="thumb">
+      <a onmouseup="track(this, 'autocompletion_support_for_scalas_combinator_pars', ''); "
+      
+    
+         
+           
+                  href="http://marcus-schulte.blogspot.com/2012/04/autocompletion-support-for-scalas.html">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/778843-1334782253000.jpg" class="thumbnail"  alt="Link 778843 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=778843', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_778843">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-778843">      
+      <a id="upcount-778843" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(778843, null); return false"
+        
+        
+        >7</a>
+      
+      <a id="downcount-778843" href="#"
+        
+          onclick="showLoginDialog(778843, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'autocompletion_support_for_scalas_combinator_pars', ''); "
+            
+                 
+                   
+                          href="http://marcus-schulte.blogspot.com/2012/04/autocompletion-support-for-scalas.html" rel="bookmark">
+                  
+            
+        Autocompletion support for Scala's combinator parsers</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/364506.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/364506-1334635200000.gif" class="avatar" alt="User 364506 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/364506.html">etluchs</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Amarcus-schulte.blogspot.com">marcus-schulte.blogspot.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 16:50.
+        
+        
+        
+        
+        
+        Views: 61, Clicks: 337
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            A quick way of adding rudimentary autocompletion support to scala's combinator parsers - and a little lesson on stackable extensions by...&nbsp;<a href='/links/autocompletion_support_for_scalas_combinator_pars.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Autocompletion+support+for+Scala%27s+combinator+parsers%22+http%3A%2F%2Fdzone.com%2FXsyo" class="twitter">Tweet</a> 
+        <a href="/links/autocompletion_support_for_scalas_combinator_pars.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-778843" onclick="showLoginDialog(778843); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-778843" onclick="showLoginDialog(778843); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/how-to.html" class="tags" rel="tag">how-to</a>
+                , 
+            
+                <a href="/links/tag/other languages.html" class="tags" rel="tag">other languages</a>
+                , 
+            
+                <a href="/links/tag/tools.html" class="tags" rel="tag">tools</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779353"> </a>           
+
+<div class="linkblock frontpage " id="link-779353">
+   
+
+  <div id="thumb_779353" class="thumb">
+      <a onmouseup="track(this, 'netflix_to_open_source_monkey_website_fault_testi', ''); "
+      
+    
+         
+           
+                  href="http://www.real-user-monitoring.com/netflix-to-open-source-monkey-website-fault-testing-tools/">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779353-1334777951000.jpg" class="thumbnail"  alt="Link 779353 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779353', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779353">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779353">      
+      <a id="upcount-779353" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779353, null); return false"
+        
+        
+        >11</a>
+      
+      <a id="downcount-779353" href="#"
+        
+          onclick="showLoginDialog(779353, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'netflix_to_open_source_monkey_website_fault_testi', ''); "
+            
+                 
+                   
+                          href="http://www.real-user-monitoring.com/netflix-to-open-source-monkey-website-fault-testing-tools/" rel="bookmark">
+                  
+            
+        Netflix to Open Source "Monkey" Website Fault Testing Tools </a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/868375.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 868375 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/868375.html">rsmiller</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Areal-user-monitoring.com">real-user-monitoring.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 15:39.
+        
+        
+        
+        
+        
+        Views: 238, Clicks: 776
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            Netflix has announced its open sourcing its set of "Monkey" web site fault testing tools and you would be foolish to not at least check...&nbsp;<a href='/links/netflix_to_open_source_monkey_website_fault_testi.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Netflix+to+Open+Source+Monkey+Website+Fault+Testing+Tools+%22+http%3A%2F%2Fdzone.com%2FaeIr" class="twitter">Tweet</a> 
+        <a href="/links/netflix_to_open_source_monkey_website_fault_testi.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779353" onclick="showLoginDialog(779353); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779353" onclick="showLoginDialog(779353); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/cloud.html" class="tags" rel="tag">cloud</a>
+                , 
+            
+                <a href="/links/tag/news.html" class="tags" rel="tag">news</a>
+                , 
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                , 
+            
+                <a href="/links/tag/tools.html" class="tags" rel="tag">tools</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779473"> </a>           
+
+<div class="linkblock frontpage " id="link-779473">
+   
+
+  <div id="thumb_779473" class="thumb">
+      <a onmouseup="track(this, 'ansible_cm_deployment_and_adhoc_task_execution_al', ''); "
+      
+    
+         
+           
+                  href="http://server.dzone.com/articles/ansible-cm-deployment-and-ad">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779473-1334774465000.jpg" class="thumbnail"  alt="Link 779473 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779473', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779473">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779473">      
+      <a id="upcount-779473" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779473, null); return false"
+        
+        
+        >9</a>
+      
+      <a id="downcount-779473" href="#"
+        
+          onclick="showLoginDialog(779473, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'ansible_cm_deployment_and_adhoc_task_execution_al', ''); "
+            
+                 
+                   
+                          href="http://server.dzone.com/articles/ansible-cm-deployment-and-ad" rel="bookmark">
+                  
+            
+        Ansible: CM, Deployment, and Ad-hoc Task Execution All in One</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/478055.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/478055-1334116800000.gif" class="avatar" alt="User 478055 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+            <img width="12" height="12" src="http://cdn.dzone.com/links/themes/reader/images/lightbulb_12.gif" title="User is currently online." alt="Online"/>
+        
+        <a href="/links/users/profile/478055.html">mitchp</a>
+        
+        via <a href="/links/search.html?query=domain%3Aserver.dzone.com">server.dzone.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:41.
+        
+        
+        
+        
+        
+        Views: 87, Clicks: 527
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            I just found out about a really interesting open source tool that could support DevOps processes in an even greater capacity than the...&nbsp;<a href='/links/ansible_cm_deployment_and_adhoc_task_execution_al.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Ansible%3A+CM%2C+Deployment%2C+and+Ad-hoc+Task+Execution+All+in+One%22+http%3A%2F%2Fdzone.com%2Fq2xR" class="twitter">Tweet</a> 
+        <a href="/links/ansible_cm_deployment_and_adhoc_task_execution_al.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779473" onclick="showLoginDialog(779473); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779473" onclick="showLoginDialog(779473); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/news.html" class="tags" rel="tag">news</a>
+                , 
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                , 
+            
+                <a href="/links/tag/server.html" class="tags" rel="tag">server</a>
+                , 
+            
+                <a href="/links/tag/tools.html" class="tags" rel="tag">tools</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779275"> </a>           
+
+<div class="linkblock frontpage " id="link-779275">
+   
+
+  <div id="thumb_779275" class="thumb">
+      <a onmouseup="track(this, 'article_series_migrating_spring_applications_to_j', ''); "
+      
+    
+         
+           
+                  href="http://howtojboss.com/2012/04/17/article-series-migrating-spring-applications-to-java-ee-6-part-1/">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779275-1334818359000.jpg" class="thumbnail"  alt="Link 779275 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779275', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779275">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779275">      
+      <a id="upcount-779275" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779275, null); return false"
+        
+        
+        >7</a>
+      
+      <a id="downcount-779275" href="#"
+        
+          onclick="showLoginDialog(779275, null); return false;"
+          class="downcount"
+        
+        
+          >5</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'article_series_migrating_spring_applications_to_j', ''); "
+            
+                 
+                   
+                          href="http://howtojboss.com/2012/04/17/article-series-migrating-spring-applications-to-java-ee-6-part-1/" rel="bookmark">
+                  
+            
+        Article Series: Migrating Spring Applications to Java EE 6 – Part 1</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/361295.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/361295-1334548800000.gif" class="avatar" alt="User 361295 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/361295.html">Shane K Johnson</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Ahowtojboss.com">howtojboss.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:34.
+        
+        
+        
+        
+        
+        Views: 363, Clicks: 806
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            Bert Ertman  and Paul Bakker of Luminis have written a multi-part article that covers migrating Spring Applications to Java EE 6...&nbsp;<a href='/links/article_series_migrating_spring_applications_to_j.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Article+Series%3A+Migrating+Spring+Applications+to+Java+EE+6+%E2%80%93+Part+1%22+http%3A%2F%2Fdzone.com%2FcZlX" class="twitter">Tweet</a> 
+        <a href="/links/article_series_migrating_spring_applications_to_j.html" class="comment">2 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779275" onclick="showLoginDialog(779275); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779275" onclick="showLoginDialog(779275); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/how-to.html" class="tags" rel="tag">how-to</a>
+                , 
+            
+                <a href="/links/tag/java.html" class="tags" rel="tag">java</a>
+                , 
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                , 
+            
+                <a href="/links/tag/server.html" class="tags" rel="tag">server</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779251"> </a>           
+
+<div class="linkblock frontpage " id="link-779251">
+   
+
+  <div id="thumb_779251" class="thumb">
+      <a onmouseup="track(this, 'new_version_of_oss_solr_debugging_and_analysis_to', ''); "
+      
+    
+         
+           
+                  href="http://java.dzone.com/articles/new-version-oss-solr-debugging">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779251-1334773620000.jpg" class="thumbnail"  alt="Link 779251 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779251', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779251">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779251">      
+      <a id="upcount-779251" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779251, null); return false"
+        
+        
+        >8</a>
+      
+      <a id="downcount-779251" href="#"
+        
+          onclick="showLoginDialog(779251, null); return false;"
+          class="downcount"
+        
+        
+          >1</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'new_version_of_oss_solr_debugging_and_analysis_to', ''); "
+            
+                 
+                   
+                          href="http://java.dzone.com/articles/new-version-oss-solr-debugging" rel="bookmark">
+                  
+            
+        New Version of OSS Solr Debugging and Analysis Tool</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/478055.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/478055-1334116800000.gif" class="avatar" alt="User 478055 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+            <img width="12" height="12" src="http://cdn.dzone.com/links/themes/reader/images/lightbulb_12.gif" title="User is currently online." alt="Online"/>
+        
+        <a href="/links/users/profile/478055.html">mitchp</a>
+        
+        via <a href="/links/search.html?query=domain%3Ajava.dzone.com">java.dzone.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:27.
+        
+        
+        
+        
+        
+        Views: 81, Clicks: 562
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            We are proud to inform that we deployed a new version of  explain.solr.pl, software for debugging and analyzing Solr queries. This...&nbsp;<a href='/links/new_version_of_oss_solr_debugging_and_analysis_to.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22New+Version+of+OSS+Solr+Debugging+and+Analysis+Tool%22+http%3A%2F%2Fdzone.com%2FYKBB" class="twitter">Tweet</a> 
+        <a href="/links/new_version_of_oss_solr_debugging_and_analysis_to.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779251" onclick="showLoginDialog(779251); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779251" onclick="showLoginDialog(779251); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/java.html" class="tags" rel="tag">java</a>
+                , 
+            
+                <a href="/links/tag/news.html" class="tags" rel="tag">news</a>
+                , 
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                , 
+            
+                <a href="/links/tag/tools.html" class="tags" rel="tag">tools</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779269"> </a>           
+
+<div class="linkblock frontpage " id="link-779269">
+   
+
+  <div id="thumb_779269" class="thumb">
+      <a onmouseup="track(this, 'pymunincli_a_python_library_for_accessing_munin_d', ''); "
+      
+    
+         
+           
+                  href="http://css.dzone.com/articles/first-release-pymunincli">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779269-1334773614000.jpg" class="thumbnail"  alt="Link 779269 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779269', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779269">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779269">      
+      <a id="upcount-779269" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779269, null); return false"
+        
+        
+        >7</a>
+      
+      <a id="downcount-779269" href="#"
+        
+          onclick="showLoginDialog(779269, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'pymunincli_a_python_library_for_accessing_munin_d', ''); "
+            
+                 
+                   
+                          href="http://css.dzone.com/articles/first-release-pymunincli" rel="bookmark">
+                  
+            
+        PyMuninCli - a Python Library for Accessing Munin Daemons</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/478055.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/478055-1334116800000.gif" class="avatar" alt="User 478055 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+            <img width="12" height="12" src="http://cdn.dzone.com/links/themes/reader/images/lightbulb_12.gif" title="User is currently online." alt="Online"/>
+        
+        <a href="/links/users/profile/478055.html">mitchp</a>
+        
+        via <a href="/links/search.html?query=domain%3Acss.dzone.com">css.dzone.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:26.
+        
+        
+        
+        
+        
+        Views: 78, Clicks: 509
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            I discovered that there was no client library to query a Munin server. There's PyMunin or python-munin which helped with the development...&nbsp;<a href='/links/pymunincli_a_python_library_for_accessing_munin_d.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22PyMuninCli+-+a+Python+Library+for+Accessing+Munin+Daemons%22+http%3A%2F%2Fdzone.com%2Fq1Qg" class="twitter">Tweet</a> 
+        <a href="/links/pymunincli_a_python_library_for_accessing_munin_d.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779269" onclick="showLoginDialog(779269); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779269" onclick="showLoginDialog(779269); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/news.html" class="tags" rel="tag">news</a>
+                , 
+            
+                <a href="/links/tag/python.html" class="tags" rel="tag">python</a>
+                , 
+            
+                <a href="/links/tag/server.html" class="tags" rel="tag">server</a>
+                , 
+            
+                <a href="/links/tag/tools.html" class="tags" rel="tag">tools</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-778833"> </a>           
+
+<div class="linkblock frontpage " id="link-778833">
+   
+
+  <div id="thumb_778833" class="thumb">
+      <a onmouseup="track(this, 'but_boss_i_have_to_work_at_home_the_president_sai', ''); "
+      
+    
+         
+           
+                  href="http://h30565.www3.hp.com/t5/Feature-Articles/But-Boss-I-Have-to-Work-at-Home-The-President-Said-So/ba-p/2788">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/778833-1334772730000.jpg" class="thumbnail"  alt="Link 778833 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=778833', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_778833">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-778833">      
+      <a id="upcount-778833" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(778833, null); return false"
+        
+        
+        >10</a>
+      
+      <a id="downcount-778833" href="#"
+        
+          onclick="showLoginDialog(778833, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'but_boss_i_have_to_work_at_home_the_president_sai', ''); "
+            
+                 
+                   
+                          href="http://h30565.www3.hp.com/t5/Feature-Articles/But-Boss-I-Have-to-Work-at-Home-The-President-Said-So/ba-p/2788" rel="bookmark">
+                  
+            
+        “But, Boss! I Have to Work at Home! The President Said So!” Telecommuting & the Government</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/209965.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/209965-1312430400000.gif" class="avatar" alt="User 209965 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/209965.html">estherschindler</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Ah30565.www3.hp.com">h30565.www3.hp.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:12.
+        
+        
+        
+        
+        
+        Views: 67, Clicks: 655
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            The U.S. government implemented the Federal Telework Act in 2010. We look at how it’s working out, its successes, where it needs to...&nbsp;<a href='/links/but_boss_i_have_to_work_at_home_the_president_sai.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22%E2%80%9CBut%2C+Boss%21+I+Have+to+Work+at+Home%21+The+President+Said+So%21%E2%80%9D+Telecommuting+%26+the+...%22+http%3A%2F%2Fdzone.com%2FpgG3" class="twitter">Tweet</a> 
+        <a href="/links/but_boss_i_have_to_work_at_home_the_president_sai.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-778833" onclick="showLoginDialog(778833); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-778833" onclick="showLoginDialog(778833); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/trends.html" class="tags" rel="tag">trends</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-778841"> </a>           
+
+<div class="linkblock frontpage " id="link-778841">
+   
+
+  <div id="thumb_778841" class="thumb">
+      <a onmouseup="track(this, 'darts_new_isolate_api', ''); "
+      
+    
+         
+           
+                  href="http://www.grobmeier.de/darts-new-isolate-api-dartlang-17042012.html">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/778841-1334772729000.jpg" class="thumbnail"  alt="Link 778841 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=778841', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_778841">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-778841">      
+      <a id="upcount-778841" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(778841, null); return false"
+        
+        
+        >7</a>
+      
+      <a id="downcount-778841" href="#"
+        
+          onclick="showLoginDialog(778841, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'darts_new_isolate_api', ''); "
+            
+                 
+                   
+                          href="http://www.grobmeier.de/darts-new-isolate-api-dartlang-17042012.html" rel="bookmark">
+                  
+            
+        Darts new Isolate API</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/894285.html">
+          
+                  <img width="24" height="24" src="http://cdn.dzone.com/links/images/std/avatars/default_24.gif" class="avatar" alt="User 894285 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/894285.html">grobmeier</a>
+        
+            
+        
+        via <a href="/links/search.html?query=domain%3Agrobmeier.de">grobmeier.de</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:12.
+        
+        
+        
+        
+        
+        Views: 89, Clicks: 561
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+      
+          The new Dart Isolate API is pretty nice, more readable and easier to code. A few example lines in this post show how it looks like.
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Darts+new+Isolate+API%22+http%3A%2F%2Fdzone.com%2FNfm3" class="twitter">Tweet</a> 
+        <a href="/links/darts_new_isolate_api.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-778841" onclick="showLoginDialog(778841); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-778841" onclick="showLoginDialog(778841); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                , 
+            
+                <a href="/links/tag/other languages.html" class="tags" rel="tag">other languages</a>
+                , 
+            
+                <a href="/links/tag/web 2.0.html" class="tags" rel="tag">web 2.0</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-778845"> </a>           
+
+<div class="linkblock frontpage " id="link-778845">
+   
+
+  <div id="thumb_778845" class="thumb">
+      <a onmouseup="track(this, 'a_wp7_app_for_win8_australia_dev_camps_with_sourc', ''); "
+      
+    
+         
+           
+                  href="http://mobile.dzone.com/articles/wp7-app-win8-australia-dev">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/778845-1334772727000.jpg" class="thumbnail"  alt="Link 778845 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=778845', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_778845">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-778845">      
+      <a id="upcount-778845" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(778845, null); return false"
+        
+        
+        >5</a>
+      
+      <a id="downcount-778845" href="#"
+        
+          onclick="showLoginDialog(778845, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'a_wp7_app_for_win8_australia_dev_camps_with_sourc', ''); "
+            
+                 
+                   
+                          href="http://mobile.dzone.com/articles/wp7-app-win8-australia-dev" rel="bookmark">
+                  
+            
+        A WP7 app for Win8 Australia Dev Camps (with source... Don't leave your next conference, training, camp, thing, without one...)</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/974613.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/974613-1334548800000.gif" class="avatar" alt="User 974613 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/974613.html">cjsmith</a>
+        
+        via <a href="/links/search.html?query=domain%3Amobile.dzone.com">mobile.dzone.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:12.
+        
+        
+        
+        
+        
+        Views: 63, Clicks: 404
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            In this post, Greg Duncan provides a great link for creating a Windows Phone 7 App for your upcoming conference or event. It's fast and...&nbsp;<a href='/links/a_wp7_app_for_win8_australia_dev_camps_with_sourc.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22A+WP7+app+for+Win8+Australia+Dev+Camps+%28with+source...+Don%27t+leave+your+next+con...%22+http%3A%2F%2Fdzone.com%2FgbRh" class="twitter">Tweet</a> 
+        <a href="/links/a_wp7_app_for_win8_australia_dev_camps_with_sourc.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-778845" onclick="showLoginDialog(778845); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-778845" onclick="showLoginDialog(778845); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/how-to.html" class="tags" rel="tag">how-to</a>
+                , 
+            
+                <a href="/links/tag/microsoft.html" class="tags" rel="tag">microsoft</a>
+                , 
+            
+                <a href="/links/tag/mobile.html" class="tags" rel="tag">mobile</a>
+                , 
+            
+                <a href="/links/tag/windows.html" class="tags" rel="tag">windows</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-778885"> </a>           
+
+<div class="linkblock frontpage " id="link-778885">
+   
+
+  <div id="thumb_778885" class="thumb">
+      <a onmouseup="track(this, '43_free_cloud_developeroriented_books_from_amazon', ''); "
+      
+    
+         
+           
+                  href="http://architects.dzone.com/articles/43-free-cloud-developer">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/778885-1334772716000.jpg" class="thumbnail"  alt="Link 778885 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=778885', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_778885">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-778885">      
+      <a id="upcount-778885" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(778885, null); return false"
+        
+        
+        >6</a>
+      
+      <a id="downcount-778885" href="#"
+        
+          onclick="showLoginDialog(778885, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, '43_free_cloud_developeroriented_books_from_amazon', ''); "
+            
+                 
+                   
+                          href="http://architects.dzone.com/articles/43-free-cloud-developer" rel="bookmark">
+                  
+            
+        43 Free Cloud Developer-Oriented Books from Amazon Web Services</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/975993.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/975993-1334635200000.gif" class="avatar" alt="User 975993 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/975993.html">egenesky</a>
+        
+        via <a href="/links/search.html?query=domain%3Aarchitects.dzone.com">architects.dzone.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:11.
+        
+        
+        
+        
+        
+        Views: 339, Clicks: 833
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+      
+          Get caught up on AWS documentation, including an EC2 getting-started guide. 
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%2243+Free+Cloud+Developer-Oriented+Books+from+Amazon+Web+Services%22+http%3A%2F%2Fdzone.com%2FH3pn" class="twitter">Tweet</a> 
+        <a href="/links/43_free_cloud_developeroriented_books_from_amazon.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-778885" onclick="showLoginDialog(778885); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-778885" onclick="showLoginDialog(778885); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/cloud.html" class="tags" rel="tag">cloud</a>
+                , 
+            
+                <a href="/links/tag/how-to.html" class="tags" rel="tag">how-to</a>
+                , 
+            
+                <a href="/links/tag/news.html" class="tags" rel="tag">news</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-778907"> </a>           
+
+<div class="linkblock frontpage " id="link-778907">
+   
+
+  <div id="thumb_778907" class="thumb">
+      <a onmouseup="track(this, 'let_me_suggest_an_ecosystem_platform_for_pinterest', ''); "
+      
+    
+         
+           
+                  href="http://architects.dzone.com/articles/let-me-suggest-ecosystem">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/778907-1334772714000.jpg" class="thumbnail"  alt="Link 778907 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=778907', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_778907">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-778907">      
+      <a id="upcount-778907" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(778907, null); return false"
+        
+        
+        >6</a>
+      
+      <a id="downcount-778907" href="#"
+        
+          onclick="showLoginDialog(778907, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'let_me_suggest_an_ecosystem_platform_for_pinterest', ''); "
+            
+                 
+                   
+                          href="http://architects.dzone.com/articles/let-me-suggest-ecosystem" rel="bookmark">
+                  
+            
+        Let Me Suggest an Ecosystem Platform for Pinterest</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/975993.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/975993-1334635200000.gif" class="avatar" alt="User 975993 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+        <a href="/links/users/profile/975993.html">egenesky</a>
+        
+        via <a href="/links/search.html?query=domain%3Aarchitects.dzone.com">architects.dzone.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:11.
+        
+        
+        
+        
+        
+        Views: 72, Clicks: 408
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+          
+            Pinterest is being touted as a web ecosystem platform that may potentially rival FaceBook.  To be a web ecosystem platform, an online...&nbsp;<a href='/links/let_me_suggest_an_ecosystem_platform_for_pinterest.html'>more&nbsp;&raquo;</a>
+      
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Let+Me+Suggest+an+Ecosystem+Platform+for+Pinterest%22+http%3A%2F%2Fdzone.com%2FW9UN" class="twitter">Tweet</a> 
+        <a href="/links/let_me_suggest_an_ecosystem_platform_for_pinterest.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-778907" onclick="showLoginDialog(778907); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-778907" onclick="showLoginDialog(778907); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/how-to.html" class="tags" rel="tag">how-to</a>
+                , 
+            
+                <a href="/links/tag/open source.html" class="tags" rel="tag">open source</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="link-779011"> </a>           
+
+<div class="linkblock frontpage " id="link-779011">
+   
+
+  <div id="thumb_779011" class="thumb">
+      <a onmouseup="track(this, 'nokia_places_api_for_windows_phone', ''); "
+      
+    
+         
+           
+                  href="http://nikovrdoljak.wordpress.com/2012/04/16/nokia-places-api-for-windows-phone/">
+          <img width="120" height="90" src="http://cdn.dzone.com/links/images/thumbs/120x90/779011-1334772696000.jpg" class="thumbnail"  alt="Link 779011 thumbnail" onmouseover="return OLgetAJAX('/links/themes/reader/jsps/nodecoration/thumb-load.jsp?linkId=779011', OLcmdExT1,
+ 300, 'bigThumbBody');" onmouseout="OLclearAJAX(); nd(100);" /></a>
+   </div>
+
+
+
+
+   <div id="hidden_thumb_779011">
+
+   </div>
+
+
+
+
+   <div class="tools">
+     
+
+     
+   </div>
+  
+
+
+
+   <div class="details">
+    <div class="vwidget" id="vwidget-779011">      
+      <a id="upcount-779011" href="#"
+        
+          class="upcount"
+          onclick="showLoginDialog(779011, null); return false"
+        
+        
+        >6</a>
+      
+      <a id="downcount-779011" href="#"
+        
+          onclick="showLoginDialog(779011, null); return false;"
+          class="downcount"
+        
+        
+          >0</a>
+      
+      
+    </div>
+
+    <h3><a onmouseup="track(this, 'nokia_places_api_for_windows_phone', ''); "
+            
+                 
+                   
+                          href="http://nikovrdoljak.wordpress.com/2012/04/16/nokia-places-api-for-windows-phone/" rel="bookmark">
+                  
+            
+        Nokia Places API for Windows Phone</a></h3>
+
+    <p class="voteblock">
+      <a href="/links/users/profile/448255.html">
+          
+                <img width="24" height="24" src="http://cdn.dzone.com/links/images/avatars/24x24/448255-1333857600000.gif" class="avatar" alt="User 448255 avatar"/>
+              
+       </a>   
+    </p>
+
+    <p class="fineprint byline">
+        
+            <img width="12" height="12" src="http://cdn.dzone.com/links/themes/reader/images/lightbulb_12.gif" title="User is currently online." alt="Online"/>
+        
+        <a href="/links/users/profile/448255.html">dotCore</a>
+        
+        via <a href="/links/search.html?query=domain%3Anikovrdoljak.wordpress.com">nikovrdoljak.wordpress.com</a>                  
+    </p>
+
+    <p class="fineprint byline">
+        
+            
+            
+                <b>Promoted: </b>
+             Apr 18 / 14:11.
+        
+        
+        
+        
+        
+        Views: 87, Clicks: 383
+        
+    </p>
+
+    
+
+    <p class="description">
+      
+      
+          In this post I will demonstrate way to begin using the Nokia RESTful Places API and display places data in your Windows Phone application.
+      
+    </p>
+
+    <p class="fineprint stats">
+        
+
+        <a href="http://twitter.com/home?status=RT+%40DZone+%22Nokia+Places+API+for+Windows+Phone%22+http%3A%2F%2Fdzone.com%2FmESm" class="twitter">Tweet</a> 
+        <a href="/links/nokia_places_api_for_windows_phone.html" class="comment">0 Comments</a>
+
+        
+            <span class="linkUnsaved" id="save-link-779011" onclick="showLoginDialog(779011); return false;">Save</span>
+            <span class="linkUnshared" id="share-link-779011" onclick="showLoginDialog(779011); return false;">Share</span>
+        
+
+        
+
+        Tags:
+        
+            
+                <a href="/links/tag/microsoft.html" class="tags" rel="tag">microsoft</a>
+                , 
+            
+                <a href="/links/tag/mobile.html" class="tags" rel="tag">mobile</a>
+                , 
+            
+                <a href="/links/tag/news.html" class="tags" rel="tag">news</a>
+                , 
+            
+                <a href="/links/tag/tools.html" class="tags" rel="tag">tools</a>
+                
+            
+        
+
+        
+    </p>
+
+   </div>
+
+   
+</div>
+
+
+
+  
+
+  
+
+  <div class="pager">
+    
+  </div>
+ </div>
+</div>
+<script type='text/javascript' src='/links/dwr/interface/LinkManager.js'></script>
+<script type='text/javascript' src='/links/dwr/interface/UserManager.js'></script>    
+<script type="text/javascript" src="/links/themes/reader/scripts/dz-vote-ui.js.h1086166305.pack" charset="utf-8"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-410289-1");
+pageTracker._setDomainName(".dzone.com");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+<div id="progressIndicator" style="position: absolute; display: none; right: 1%; z-index: 10001; bottom: 0;">
+    <img width="85" height="85" src="http://cdn.dzone.com/links/images/std/ajax-loader-85.gif" alt="" />
+    <span id="scrollStats" style="font-size: 70%; width: 80px;  text-align: center; position: absolute; bottom: 25px; left: 2px;"></span>
+</div>
+<script type="text/javascript">
+    document.getElementById("content").focus();
+</script>
+
+    
+    
+<span style="display: none" id="DZoneSlice" class="hslice">
+    <span style="display: none" class="entry-title">DZone</span>
+    <a style="display: none" href="http://ie8php.hosting0.smoothfusion.com/dzone/Slice-Preview.php" rel="entry-content"></a>
+</span>
+ <script type='text/javascript'>/*<![CDATA[*/ window.olark||(function(k){var g=window,j=document,a=g.location.protocol=="https:"?"https:":"http:",i=k.name,b="load",h="addEventListener";(function(){g[i]=function(){(c.s=c.s||[]).push(arguments)};var c=g[i]._={},f=k.methods.length;while(f--){(function(l){g[i][l]=function(){g[i]("call",l,arguments)}})(k.methods[f])}c.l=k.loader;c.i=arguments.callee;c.p={0:+new Date};c.P=function(l){c.p[l]=new Date-c.p[0]};function e(){c.P(b);g[i](b)}g[h]?g[h](b,e,false):g.attachEvent("on"+b,e);c.P(1);var d=j.createElement("script"),m=document.getElementsByTagName("script")[0];d.type="text/javascript";d.async=true;d.src=a+"//"+c.l;m.parentNode.insertBefore(d,m);c.P(2)})()})({loader:(function(a){return "static.olark.com/jsclient/loader1.js?ts="+(a?a[1]:(+new Date))})(document.cookie.match(/olarkld=([0-9]+)/)),name:"olark",methods:["configure","extend","declare","identify"]}); olark.identify('1240-531-10-8117');/*]]>*/
+ function startOlark() {
+      olark('api.box.expand');
+ }
+ olark('api.chat.onOperatorsAvailable', function() {
+      var button = document.getElementById('available-button');
+      if (button) {
+           button.style.display = null;
+      }
+ });
+ olark('api.chat.onOperatorsAway', function() {
+      var button = document.getElementById('unavailable-button');
+      if (button) {
+           button.style.display = null;
+      }
+ });
+
+ olark.configure('system.start_hidden', true);
+</script> <!-- end olark code -->
+
+</body>
+</html>
+

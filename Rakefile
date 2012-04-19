@@ -7,6 +7,20 @@ Rake::TestTask.new(:test) do |test|
 end
 task :default => :test
 
+desc "generate test/data/domain.{html,yml} files from a url http://domain"
+task :generate_expected_result, :url  do |t, args|
+  require 'open-uri'
+  url = args[:url]
+  outfn = File.join('test', 'data', url.gsub("http://",'').gsub("www.",'').gsub("/","_")+".html")
+fail('file exists') if File.exist?(outfn)
+  open(url) do |inp|
+    open(outfn, 'w+') do |out|
+      out.write(inp.read)
+    end
+  end
+  Rake::Task[:rebuild_expected_results_yaml].invoke(outfn)
+end
+
 desc "regenerate test/data/*.yml files describing the expected results for each site"
 task :rebuild_expected_results_yaml, :filename  do |t, args|
   $:.unshift './lib'

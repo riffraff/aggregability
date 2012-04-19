@@ -1,0 +1,184 @@
+---
+- :title: ! 'PageSlide : a jQuery plugin which slides a webpage over to reveal an
+    additional interaction pane'
+  :url: http://srobbin.com/jquery-plugins/pageslide/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: jQuery File Upload Demo
+  :url: http://blueimp.github.com/jQuery-File-Upload/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: 695k TPS with Node.js and VoltDB
+  :url: http://voltdb.com/company/blog/695k-tps-nodejs-and-voltdb
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: Storage.js - Simple HTML5 Page Edits
+  :url: http://ek.alphaschildren.org/projects/storagejs/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Node.js 0.7.8 has been released
+  :url: http://blog.nodejs.org/2012/04/18/version-0-7-8-unstable/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: ! 'Node Streams : How do they work?'
+  :url: http://maxogden.com/node-streams
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! 'DailyJS: Node Roundup: OneJS, node-pad, CouchPress, node-linq'
+  :url: http://dailyjs.com/2012/04/18/node-roundup/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: ! 'DailyJS: jQuery Roundup: Touch Patents, Standalone Deferred, Mailcheck.js'
+  :url: http://dailyjs.com/2012/04/17/jquery-roundup/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: ! 'DailyJS: Meteor, Qatrix, WebKit Remote Debugging 1.0'
+  :url: http://dailyjs.com/2012/04/16/meteor-qatrix-debug/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: NodeUp:17 is up! A special framework author throwdown
+  :url: http://nodeup.com/seventeen
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: The infernal semicolon
+  :url: http://brendaneich.com/2012/04/the-infernal-semicolon/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Our take on Derby vs. Meteor
+  :url: http://blog.derbyjs.com/2012/04/14/our-take-on-derby-vs-meteor/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! 'JavaScript Playground : Tips, tricks, tutorials & screencasts to improve
+    your JavaScript'
+  :url: http://javascriptplayground.com/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: ! 'Grover : YUITest wrapper for PhantomJS'
+  :url: https://github.com/davglass/grover
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: ! 'WebGL : Crowdsourcing Driver Testing'
+  :url: http://www.khronos.org/webgl/wiki/CrowdsourcingDriverTesting
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: Javascript memory optimization and texture loading
+  :url: http://blog.tojicode.com/2012/03/javascript-memory-optimization-and.html
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: Anisotropic Filtering in WebGL
+  :url: http://blog.tojicode.com/2012/03/anisotropic-filtering-in-webgl.html
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: Protecting WebGL content (and why you probably shouldn't)
+  :url: http://blog.tojicode.com/2011/12/protecting-webgl-content-and-why-you.html
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: ! 'DailyJS: Colonne, n8iv, Three Bad Parts'
+  :url: http://dailyjs.com/2012/04/13/colonne-n8iv-bad-parts/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: cookie.js – a JavaScript cookie library
+  :url: https://github.com/js-coder/cookie.js
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! 'JS assessment : A test-driven approach to assessing JS skills'
+  :url: https://github.com/rmurphey/js-assessment
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: JavaScript switch case Deoptimization
+  :url: http://ariya.ofilabs.com/2012/04/javascript-switch-case-deoptimization.html
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: ! 'PlastronJS : MVC framework for Closure Library and Closure Compiler'
+  :url: https://github.com/rhysbrettbowen/PlastronJS
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! 'DailyJS: Unix and Node: Syslog'
+  :url: http://dailyjs.com/2012/04/12/node-unix-syslog/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: ! 'PhantomJS Myths: Busted'
+  :url: http://ariya.ofilabs.com/2012/04/phantomjs-myths-busted.html
+  :scores:
+  - 3
+  :comments_count: 0
+  :score: 3
+- :title: ! 'foresight.js : is the user''s device capable of viewing high-resolution
+    images?'
+  :url: https://github.com/adamdbradley/foresight.js
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: Javascript, Meteor, the Future
+  :url: http://sympodial.com/blog/javascript-meteor-future/
+  :scores:
+  - 2
+  :comments_count: 1
+  :score: 2
+- :title: gamepad.js
+  :url: http://www.gamepadjs.com/
+  :scores:
+  - 2
+  :comments_count: 0
+  :score: 2
+- :title: ! 'Big boost to DOM performance : WebKit''s innerHTML is 240% faster'
+  :url: http://updates.html5rocks.com/2012/04/Big-boost-to-DOM-performance---WebKit-s-innerHTML-is-240-faster
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
+- :title: PhoneGap 1.6 Released!
+  :url: http://phonegap.com/2012/04/11/phonegap-1-6-released/
+  :scores:
+  - 1
+  :comments_count: 0
+  :score: 1
