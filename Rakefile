@@ -20,7 +20,7 @@ task :rebuild_expected_results_yaml, :filename  do |t, args|
     begin
       open(fn) do |fd|
         puts "Reading #{fn}"
-        items = Aggregability::Extractor.new(nil, 'http://example.com').parse_io(fd)
+        items = Aggregability::Extractor.new('http://example.com').parse_io(fd)
         yfn = fn.sub /html$/, 'yml'
         puts "Writing #{yfn}"
         open(yfn, 'w+') do |yfd|
