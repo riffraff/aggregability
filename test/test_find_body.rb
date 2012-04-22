@@ -112,7 +112,7 @@ class TestFindContent < Test::Unit::TestCase
   end
 
   def test_find_content_reddit
-    str = File.read 'test/data/reddit.html'
+    str = File.read 'test/data/reddit.com.html'
     e = Aggregability::Extractor.new
     xml = Nokogiri.parse(str)
     b = e.find_content xml
@@ -133,7 +133,7 @@ class TestFindContent < Test::Unit::TestCase
   end
 
   def test_find_content_newsyc 
-    str = File.read 'test/data/news.ycombinator.html'
+    str = File.read 'test/data/news.ycombinator.com.html'
     e = Aggregability::Extractor.new
     xml = Nokogiri.parse(str)
     b = e.find_content xml
@@ -143,7 +143,7 @@ class TestFindContent < Test::Unit::TestCase
     assert_equal  nil, b['bgcolor']
   end
   def test_find_content_hackful
-    str = File.read 'test/data/hackful.html'
+    str = File.read 'test/data/hackful.eu.html'
     e = Aggregability::Extractor.new
     xml = Nokogiri.parse(str)
     b = e.find_content xml

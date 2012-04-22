@@ -347,9 +347,20 @@ module Aggregability
       # opts = ParseOptions::COMPACT |  ParseOptions::DEFAULT_HTML | ParseOptions::NOBLANKS | ParseOptions::NONET
 
       # we could offset directly to 'body'.. but 'body' is not there sometimes :)
-      xmlnode = parser.parse(io, nil, encoding)
+      xmlnode = parser.parse(io, @root_url, encoding)
       content_node = find_content(xmlnode)
       items = find_items(content_node)
+    rescue RuntimeError => e
+      if e.message == "xmlXPathTranslateFunction: Invalid UTF8 string\n" && encoding
+        if io.is_a? String
+          encoding = nil
+          retry
+        elsif io.respond_to? :rewind
+          io.rewind
+          encoding = nil
+          retry
+        end
+      end
     end
 
   end

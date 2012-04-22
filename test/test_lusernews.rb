@@ -6,7 +6,7 @@ require 'aggregability'
 class TestLusernews < Test::Unit::TestCase
 
   def test_find_body_lusernews
-    str = File.read 'test/data/lusernews.html'
+    str = File.read 'test/data/lusernews.com.html'
     e = Aggregability::Extractor.new
     xml = Nokogiri.parse(str)
     b = e.find_content xml
@@ -33,7 +33,7 @@ class TestLusernews < Test::Unit::TestCase
   end
 
   def test_find_items_lusernews
-    open 'test/data/lusernews.html' do |fd|
+    open 'test/data/lusernews.com.html' do |fd|
       check fd
     end
   end

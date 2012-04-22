@@ -2,7 +2,7 @@
 require 'test/unit'
 require 'aggregability'
 
-class TestItemsCounty < Test::Unit::TestCase
+class TestItemsCount < Test::Unit::TestCase
   def check fn, count
     open fn do |fd|
       items = Aggregability::Extractor.new.parse_io(fd)
@@ -14,7 +14,7 @@ class TestItemsCounty < Test::Unit::TestCase
   end
 
   def test_items_count_reddit
-    check 'test/data/reddit.html', 25
+    check 'test/data/reddit.com.html', 25
   end
 
   def test_items_count_mini_newsyc 
@@ -22,23 +22,23 @@ class TestItemsCounty < Test::Unit::TestCase
   end
 
   def test_items_count_newsyc 
-    check 'test/data/news.ycombinator.html', 30
+    check 'test/data/news.ycombinator.com.html', 30
   end
 
   def test_items_count_digg 
-    check 'test/data/digg.html', 15 # 18 if considering sponsored by audible, but those are loaded via js
+    check 'test/data/digg.com.html', 15 # 18 if considering sponsored by audible, but those are loaded via js
   end
 
   def test_items_count_hubski
-    check 'test/data/hubski.html', 33
+    check 'test/data/hubski.com.html', 33
   end
 
   def test_items_count_forlue
-    check 'test/data/forlue.html', 30
+    check 'test/data/forlue.com.html', 30
   end
 
   def test_items_count_hackful
-    check 'test/data/hackful.html', 20
+    check 'test/data/hackful.eu.html', 20
   end
 
   def test_items_count_inbound

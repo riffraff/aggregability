@@ -5,8 +5,9 @@ require 'aggregability'
 #notice that metafilter is evil and will load 3 ad items via js
 class TestHackful < Test::Unit::TestCase
 
+  HTML = 'test/data/hackful.eu.html'
   def test_find_body_hackful
-    str = File.read 'test/data/hackful.html'
+    str = File.read HTML
     e = Aggregability::Extractor.new
     xml = Nokogiri.parse(str)
     node = e.find_content xml
@@ -15,7 +16,7 @@ class TestHackful < Test::Unit::TestCase
   end
 
   def check fd
-      e = Aggregability::Extractor.new 'http://hackful.com'
+      e = Aggregability::Extractor.new 'http://hackful.eu'
       items = e.parse_io(fd)
       assert_equal 20, items.size
       first = items.first
@@ -33,7 +34,7 @@ class TestHackful < Test::Unit::TestCase
   end
 
   def test_find_items_hackful
-    open 'test/data/hackful.html' do |fd|
+    open HTML do |fd|
       check fd
     end
   end

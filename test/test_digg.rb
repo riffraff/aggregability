@@ -3,7 +3,8 @@ require 'test/unit'
 require 'aggregability'
 
 #notice that digg is evil and will load 3 ad items via js
-class TestDiggItems < Test::Unit::TestCase
+class TestDigg < Test::Unit::TestCase
+
   def check fd
       e = Aggregability::Extractor.new 'http://digg.com'
       items = e.parse_io(fd)
@@ -22,7 +23,7 @@ class TestDiggItems < Test::Unit::TestCase
   end
 
   def test_find_items_digg
-    open 'test/data/digg.html' do |fd|
+    open 'test/data/digg.com.html' do |fd|
       check fd
     end
   end

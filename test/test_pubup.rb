@@ -22,13 +22,13 @@ class TestPubup < Test::Unit::TestCase
   end
 
   def test_find_items
-    open 'test/data/pubup.html' do |fd|
+    open 'test/data/pubup.org.html' do |fd|
       check fd
     end
   end
 
   def test_find_body
-    str = File.read 'test/data/pubup.html'
+    str = File.read 'test/data/pubup.org.html'
     e = Aggregability::Extractor.new
     xml = Nokogiri.parse(str)
     b = e.find_content xml

@@ -21,7 +21,7 @@ class TC_lamernews_items < Test::Unit::TestCase
   end
 
   def test_find_items_lamernews
-    open 'test/data/lamernews.html' do |fd|
+    open 'test/data/lamernews.com.html' do |fd|
       check fd
     end
   end

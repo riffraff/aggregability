@@ -29,7 +29,7 @@ class TC_reddit_items < Test::Unit::TestCase
   end
 
   def test_find_body_reddit
-    open 'test/data/reddit.html' do |fd|
+    open 'test/data/reddit.com.html' do |fd|
       check fd
     end
   end

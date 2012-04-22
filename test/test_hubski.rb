@@ -22,7 +22,7 @@ class TC_hubski_items < Test::Unit::TestCase
   end
 
   def test_find_items_hubski
-    open 'test/data/hubski.html' do |fd|
+    open 'test/data/hubski.com.html' do |fd|
       check fd
     end
   end
