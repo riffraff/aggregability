@@ -2,7 +2,7 @@
 require 'test/unit'
 require 'aggregability'
 
-class TC_news_yc_items < Test::Unit::TestCase
+class TestNewsYCItems < Test::Unit::TestCase
   def check fd
       e = Aggregability::Extractor.new 'http://news.ycombinator.com'
       items = e.parse_io(fd)

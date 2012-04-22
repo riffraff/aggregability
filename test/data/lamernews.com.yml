@@ -3,179 +3,209 @@
   :url: http://www.moodstocks.com/2012/03/20/ice-cream-sandwich-why-native-code-support-sucks/
   :scores:
   - 6
+  - 0
   :comments_count: 0
   :score: 6
 - :title: ! 'Ask LM: What can we do to grow this community?'
   :url: http://lamernews.com/news/903
   :scores:
   - 8
+  - 0
   :comments_count: 7
   :score: 8
 - :title: How can browser-based development tools better aid visual design?
   :url: http://blog.colin-gourlay.com/blog/2012/03/how-can-browser-based-development-tools-better-aid-visual-design/
   :scores:
   - 3
+  - 0
   :comments_count: 0
   :score: 3
 - :title: CouchDB is not a database
   :url: http://caolanmcmahon.com/posts/couchdb_is_not_a_database
   :scores:
   - 4
+  - 0
   :comments_count: 0
   :score: 4
 - :title: ! 'Show LN: Store links and text across multiple computer. PasteBro.'
   :url: http://pastebro.com
   :scores:
   - 3
+  - 0
   :comments_count: 1
   :score: 3
 - :title: ZeroMQ forked into Crossroads
   :url: http://www.crossroads.io/
   :scores:
   - 7
+  - 0
   :comments_count: 0
   :score: 7
 - :title: that cool website is builtwith?
   :url: http://www.infotechideas.com/2012/03/that-cool-website-is-builtwith.html
   :scores:
   - 2
+  - 0
   :comments_count: 1
   :score: 2
 - :title: where I introduce devproxy
   :url: http://floatboth.com/where-I-introduce-devproxy
   :scores:
   - 3
+  - 0
   :comments_count: 0
   :score: 3
 - :title: Luser news - an implementation of lamernews in python
   :url: https://github.com/dengzhp/lusernews
   :scores:
   - 7
+  - 0
   :comments_count: 0
   :score: 7
 - :title: When to use specific Redis data types
   :url: http://stackoverflow.com/questions/9625246/what-are-the-underlying-data-structures-used-for-redis
   :scores:
   - 7
+  - 0
   :comments_count: 0
   :score: 7
 - :title: Ranking on Lamer News now should make sense
   :url: http://lamernews.com/news/887
   :scores:
   - 11
+  - 0
   :comments_count: 5
   :score: 11
 - :title: Overview of text editors for Programmers on linux
   :url: http://blog.poapfel.net/?p=810
   :scores:
   - 148
+  - 6
   :comments_count: 25
   :score: 148
 - :title: Redis 2.6 is near
   :url: http://antirez.com/post/redis-2.6-is-near.html
   :scores:
   - 11
+  - 0
   :comments_count: 0
   :score: 11
 - :title: Redis Security
   :url: http://redis.io/topics/security
   :scores:
   - 5
+  - 0
   :comments_count: 3
   :score: 5
 - :title: Interactive Git Cheatsheet
   :url: http://ndpsoftware.com/git-cheatsheet.html
   :scores:
   - 7
+  - 0
   :comments_count: 0
   :score: 7
 - :title: Why and how Moodstocks made their own JPEG encoder
   :url: http://www.moodstocks.com/2012/02/10/jpec-the-whys-and-the-hows/
   :scores:
   - 9
+  - 0
   :comments_count: 0
   :score: 9
 - :title: Callbacks in Node.js for beginners
   :url: http://www.theprojectspot.com/tutorial-post/nodejs-for-beginners-callbacks/4
   :scores:
   - 3
+  - 0
   :comments_count: 0
   :score: 3
 - :title: C++11 multithreading tutorial
   :url: http://solarianprogrammer.com/2012/02/27/cpp-11-thread-tutorial-part-2/
   :scores:
   - 4
+  - 0
   :comments_count: 0
   :score: 4
 - :title: Hastebin
   :url: http://hastebin.com/
   :scores:
   - 23
+  - 0
   :comments_count: 4
   :score: 23
 - :title: Why Lua
   :url: http://blog.datamules.com/blog/2012/01/30/why-lua
   :scores:
   - 8
+  - 0
   :comments_count: 0
   :score: 8
 - :title: Storing hundreds of millions of simple key-value pairs in Redis
   :url: http://instagram-engineering.tumblr.com/post/12202313862/storing-hundreds-of-millions-of-simple-key-value-pairs
   :scores:
   - 24
+  - 0
   :comments_count: 7
   :score: 24
 - :title: ! 'Show LN: A Collaborative Code Editor (like EtherPad with Syntax Highlighting)'
   :url: http://snucode.com
   :scores:
   - 4
+  - 0
   :comments_count: 1
   :score: 4
 - :title: Short term Redis plans
   :url: http://antirez.com/post/short-term-redis-plans.html
   :scores:
   - 20
+  - 0
   :comments_count: 2
   :score: 20
 - :title: Why We Created Julia
   :url: http://julialang.org/blog/2012/02/why-we-created-julia/
   :scores:
   - 4
+  - 0
   :comments_count: 0
   :score: 4
 - :title: Git Magic
   :url: http://www-cs-students.stanford.edu/~blynn/gitmagic/
   :scores:
   - 21
+  - 0
   :comments_count: 1
   :score: 21
 - :title: Node v0.6.0
   :url: http://blog.nodejs.org/2011/11/05/node-v0-6-0/
   :scores:
   - 21
+  - 2
   :comments_count: 4
   :score: 21
 - :title: List of features still to come to Lamer News
   :url: https://github.com/antirez/lamernews/blob/master/TODO
   :scores:
   - 91
+  - 74
   :comments_count: 70
   :score: 91
 - :title: ! 'Echo JS : a social news site dedicated to JavaScript and related topics'
   :url: http://www.echojs.com
   :scores:
   - 14
+  - 0
   :comments_count: 7
   :score: 14
 - :title: Don’t Call Yourself A Programmer, And Other Career Advice
   :url: http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/
   :scores:
   - 19
+  - 0
   :comments_count: 1
   :score: 19
 - :title: ! 'Ask LN: Submitting Stories found on HN'
   :url: http://lamernews.com/news/404
   :scores:
   - 18
+  - 0
   :comments_count: 19
   :score: 18

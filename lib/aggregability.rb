@@ -1,9 +1,6 @@
 # -*- encoding : utf-8 -*-
 require "aggregability/version"
 require 'pp' if $DEBUG
-    def ipn key, xmlnode, *rest
-      p [key, [xmlnode.name, xmlnode['id'], xmlnode['class']]] + rest
-    end
 
 module Aggregability
 =begin
@@ -192,8 +189,8 @@ module Aggregability
       concat_ignorecase_xpath_expr("concat(text(),' ',@class)", n)
     end
     SCORE_NODE_SELECTORS = [
-                          ".//*[#{score_concat_exprs.join(' or ')} or contains(text(),'up')]"
-                           ]
+                    ".//*[#{score_concat_exprs.join(' or ')} or contains(text(),'up') or contains(text(), 'down')]"
+                    ]
     comment_concat_exprs = concat_ignorecase_xpath_expr("concat(text(),' ',@class)", 'comment')
     # comments are more restricted, cause I have no found other rules 
     # (though you may look for speech bubbles)
@@ -317,7 +314,8 @@ module Aggregability
         end
         # should be nil
         comments_count = (comments_node.first ? comments_node.first.text : 0).to_i
-        Item.new(title_s, fix_url(title_u), scores.map {|x| x.text.to_i}, comments_count)
+        numeric_scores = scores.map {|x| x.text.scan(/\d+/).map(&:to_i) }.flatten
+        Item.new(title_s, fix_url(title_u), numeric_scores, comments_count)
       end.compact
 
 

@@ -69,7 +69,7 @@ example:
   value - 1
 * digg has 3 scores, digg score, facebook shares, tweets
 * hackernews has one score, but sometimes none
-* lamernews has upvotes and downvotes scores
+* lamernews, techupdates and echojs  have upvotes and downvotes scores
 * hubski has no score
 
 etc.. 

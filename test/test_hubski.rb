@@ -2,7 +2,7 @@
 require 'test/unit'
 require 'aggregability'
 
-class TC_hubski_items < Test::Unit::TestCase
+class TestHubskiItems < Test::Unit::TestCase
   def check fd
       e = Aggregability::Extractor.new
       items = e.parse_io(fd)
