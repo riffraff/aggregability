@@ -12,7 +12,7 @@ task :generate_expected_result, :url  do |t, args|
   require 'open-uri'
   url = args[:url]
   outfn = File.join('test', 'data', url.gsub("http://",'').gsub("www.",'').gsub("/","_")+".html")
-fail('file exists') if File.exist?(outfn)
+  fail('file exists') if File.exist?(outfn)
   open(url) do |inp|
     open(outfn, 'w+') do |out|
       out.write(inp.read)
@@ -34,7 +34,7 @@ task :rebuild_expected_results_yaml, :filename  do |t, args|
     begin
       open(fn) do |fd|
         puts "Reading #{fn}"
-        items = Aggregability::Extractor.new('http://example.com').parse_io(fd)
+        items = Aggregability::Extractor.new('http://'+File.basename(fn).gsub('.html', '')).parse_io(fd)
         yfn = fn.sub /html$/, 'yml'
         puts "Writing #{yfn}"
         open(yfn, 'w+') do |yfd|

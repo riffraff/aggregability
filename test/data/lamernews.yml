@@ -6,7 +6,7 @@
   :comments_count: 0
   :score: 6
 - :title: ! 'Ask LM: What can we do to grow this community?'
-  :url: http://example.com/news/903
+  :url: http://lamernews/news/903
   :scores:
   - 8
   :comments_count: 7
@@ -60,7 +60,7 @@
   :comments_count: 0
   :score: 7
 - :title: Ranking on Lamer News now should make sense
-  :url: http://example.com/news/887
+  :url: http://lamernews/news/887
   :scores:
   - 11
   :comments_count: 5
@@ -174,7 +174,7 @@
   :comments_count: 1
   :score: 19
 - :title: ! 'Ask LN: Submitting Stories found on HN'
-  :url: http://example.com/news/404
+  :url: http://lamernews/news/404
   :scores:
   - 18
   :comments_count: 19

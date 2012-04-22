@@ -15,7 +15,7 @@ class TestAllItems < Test::Unit::TestCase
     define_method "test_#{fn.gsub(/\.html/,'').gsub(/\W/,'_')}_ok" do
       assert_instance_of  Array, expected
       open fn do |fd|
-      items = Aggregability::Extractor.new('http://example.com').parse_io(fd)
+      items = Aggregability::Extractor.new('http://'+File.basename(fn).gsub('.html', '')).parse_io(fd)
         #puts items.map(&:title)
         assert_equal expected.size, items.size
         items.zip(expected).each_with_index do |(item, exp), i|

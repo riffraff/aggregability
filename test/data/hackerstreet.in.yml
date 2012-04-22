@@ -1,24 +1,24 @@
 ---
 - :title: ! 'Ask Hackerstreet: Looking for a good frontend engineer on contract'
-  :url: http://example.com/item?id=15610
+  :url: http://hackerstreet.in/item?id=15610
   :scores:
   - 4
   :comments_count: 3
   :score: 4
 - :title: ! 'Ask HSI: Which E-commerce softwares support Indian payment gateways?'
-  :url: http://example.com/item?id=15617
+  :url: http://hackerstreet.in/item?id=15617
   :scores:
   - 2
   :comments_count: 2
   :score: 2
 - :title: Freelance,Contractor IEC/Import Export License and Billing software
-  :url: http://example.com/item?id=15611
+  :url: http://hackerstreet.in/item?id=15611
   :scores:
   - 3
   :comments_count: 1
   :score: 3
 - :title: ! 'Show HSI: TheNounProject.com - Free Online Collection of Icons'
-  :url: http://example.com/item?id=15605
+  :url: http://hackerstreet.in/item?id=15605
   :scores:
   - 4
   :comments_count: 2
@@ -43,7 +43,7 @@
   :score: 6
 - :title: ! '[Meetup] Indian startup cowboys | Shalimar, Sunnyvale, CA | Apr 22 |
     7pm'
-  :url: http://example.com/item?id=15588
+  :url: http://hackerstreet.in/item?id=15588
   :scores:
   - 8
   :comments_count: 0
@@ -67,13 +67,13 @@
   :comments_count: 6
   :score: 4
 - :title: Which is the best bank for startups in India?
-  :url: http://example.com/item?id=15600
+  :url: http://hackerstreet.in/item?id=15600
   :scores:
   - 2
   :comments_count: 4
   :score: 2
 - :title: ! 'Ask HSI: Open Source Alternative for SPOJ/UVA engine'
-  :url: http://example.com/item?id=15591
+  :url: http://hackerstreet.in/item?id=15591
   :scores:
   - 3
   :comments_count: 1
@@ -91,7 +91,7 @@
   :comments_count: 0
   :score: 10
 - :title: Showcasing Four Years of My Work
-  :url: http://example.com/item?id=15508
+  :url: http://hackerstreet.in/item?id=15508
   :scores:
   - 17
   :comments_count: 12
@@ -163,7 +163,7 @@
   :comments_count: 0
   :score: 9
 - :title: ! 'Menzkart.com : men undergarment shopping store'
-  :url: http://example.com/item?id=15477
+  :url: http://hackerstreet.in/item?id=15477
   :scores:
   - 7
   :comments_count: 20

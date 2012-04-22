@@ -1,6 +1,6 @@
 ---
 - :title: Hubski visits Ground Zero and the NYPD
-  :url: http://example.com/pub?id=23314
+  :url: http://hubski/pub?id=23314
   :scores: []
   :comments_count: 0
   :score: !!null 
@@ -40,22 +40,22 @@
   :comments_count: 0
   :score: !!null 
 - :title: ! 'TIL:  How to Dance Goth'
-  :url: http://example.com/pub?id=23321
+  :url: http://hubski/pub?id=23321
   :scores: []
   :comments_count: 0
   :score: !!null 
 - :title: Quiet for a bit.
-  :url: http://example.com/pub?id=23111
+  :url: http://hubski/pub?id=23111
   :scores: []
   :comments_count: 0
   :score: !!null 
 - :title: Happy Birthday Houdini
-  :url: http://example.com/pub?id=23301
+  :url: http://hubski/pub?id=23301
   :scores: []
   :comments_count: 0
   :score: !!null 
 - :title: George Harrison & Paul Simon - Homeward Bound (SNL 1976)
-  :url: http://example.com/pub?id=23312
+  :url: http://hubski/pub?id=23312
   :scores: []
   :comments_count: 0
   :score: !!null 
@@ -65,7 +65,7 @@
   :comments_count: 0
   :score: !!null 
 - :title: Dutchman flies like a bird with homemade wings
-  :url: http://example.com/pub?id=23004
+  :url: http://hubski/pub?id=23004
   :scores: []
   :comments_count: 0
   :score: !!null 
@@ -75,12 +75,12 @@
   :comments_count: 0
   :score: !!null 
 - :title: Someone once said hubski feels like a library
-  :url: http://example.com/pub?id=23081
+  :url: http://hubski/pub?id=23081
   :scores: []
   :comments_count: 0
   :score: !!null 
 - :title: American Propaganda video for soldiers stationed in Germany post-WWII [10:40]
-  :url: http://example.com/pub?id=23286
+  :url: http://hubski/pub?id=23286
   :scores: []
   :comments_count: 0
   :score: !!null 
@@ -96,7 +96,7 @@
   :comments_count: 0
   :score: !!null 
 - :title: Veritasium on Khan Academy
-  :url: http://example.com/pub?id=23280
+  :url: http://hubski/pub?id=23280
   :scores: []
   :comments_count: 0
   :score: !!null 
@@ -131,7 +131,7 @@
   :comments_count: 0
   :score: !!null 
 - :title: 1st U.S.Visit-02-The Beatles arrive at JFK
-  :url: http://example.com/pub?id=21611
+  :url: http://hubski/pub?id=21611
   :scores: []
   :comments_count: 0
   :score: !!null 

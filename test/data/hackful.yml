@@ -6,7 +6,7 @@
   :comments_count: 0
   :score: 3
 - :title: ! 'Show Hackful: Our startup Scirra'
-  :url: http://example.com/posts/753
+  :url: http://hackful/posts/753
   :scores:
   - 8
   :comments_count: 3
@@ -25,7 +25,7 @@
   :comments_count: 0
   :score: 2
 - :title: ! 'Ask HE: Invoicing webapp for EU freelancer?'
-  :url: http://example.com/posts/747
+  :url: http://hackful/posts/747
   :scores:
   - 5
   :comments_count: 3
@@ -37,13 +37,13 @@
   :comments_count: 1
   :score: 8
 - :title: ! 'Ask HE: New social network dedicated to job/life. Feedback?'
-  :url: http://example.com/posts/748
+  :url: http://hackful/posts/748
   :scores:
   - 4
   :comments_count: 4
   :score: 4
 - :title: ! 'Offer HE: Free job listing on Hacker Jobs UK'
-  :url: http://example.com/posts/729
+  :url: http://hackful/posts/729
   :scores:
   - 10
   :comments_count: 8
@@ -55,7 +55,7 @@
   :comments_count: 0
   :score: 3
 - :title: Any finance or payments start-ups want to be interviewed for The Kernel?
-  :url: http://example.com/posts/727
+  :url: http://hackful/posts/727
   :scores:
   - 7
   :comments_count: 2
@@ -68,7 +68,7 @@
   :score: 6
 - :title: ! 'Ask HE: Should we use HACKFUL.EU as the primary domain name for Hackful
     Europe?'
-  :url: http://example.com/posts/658
+  :url: http://hackful/posts/658
   :scores:
   - 27
   :comments_count: 31
