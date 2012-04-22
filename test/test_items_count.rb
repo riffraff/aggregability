@@ -6,7 +6,6 @@ class TestItemsCounty < Test::Unit::TestCase
   def check fn, count
     open fn do |fd|
       items = Aggregability::Extractor.new.parse_io(fd)
-      #puts items.map(&:title)
       assert_equal count, items.size
     end
   end

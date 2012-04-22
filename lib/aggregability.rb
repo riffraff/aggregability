@@ -175,8 +175,12 @@ module Aggregability
     # given something that looks like a "item" element, hod do you look for the link?
     TITLE_NODE_SELECTORS= ['.//h1//a', './/h2//a', './/h3//a', './/h4//a', './/h5//a', 
                            ".//*[contains(@class,'title')]/a",
-                           ".//a[contains(@class,'title')]"]
-                           #".//a[starts-with(@href,'http')]",]
+                           ".//a[contains(@class,'title')]"
+                          ]
+
+    # actually wrong, could very well be a local url or a scheme dependent url
+    # //foo.com
+    TITLE_NODE_HARDER_SELECTORS= [".//a[starts-with(@href,'http')]"]
 
     # ditto, for stuff that may look like a score
     #
@@ -204,7 +208,15 @@ module Aggregability
                            ]
 
     def title_node node
-      node.xpath(*TITLE_NODE_SELECTORS).first
+      nodes = node.xpath(*TITLE_NODE_SELECTORS)
+      if nodes.empty?
+        # try harder 
+        nodes = node.xpath(*TITLE_NODE_HARDER_SELECTORS)
+        if @root_url
+          nodes = nodes.select {|n| n['href'].index(@root_url) != 0}
+        end
+      end
+      nodes.first
     end
 
     SINGLE_SCORE_RGX =  /

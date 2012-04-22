@@ -1,0 +1,889 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<style>
+
+	a {
+		text-decoration:none;
+		color:#121212;
+	}
+	a:hover {
+		text-decoration:underline;
+		color:#043f7f;
+	}	
+	a:visited {
+		color:#747474;
+	}	
+	
+	#container {
+		background-color:white;
+		padding-left:20px;
+		padding-right:20px;
+		padding-bottom:5px;
+		font-family:Arial,Tahoma
+		width: 900px;
+		text-align: left;
+	}
+
+	#menuheader {
+		background-color:#f4f5f3;
+		padding-top:5px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-bottom:5px;
+		font-family:Arial,Tahoma;
+		border-top:5px solid #b7cd96;
+		text-align: left;
+
+
+	}
+
+
+	#formcontainer {
+		line-height:225%;
+	}
+
+body
+{
+	margin:0px;
+}
+.menu {
+font-family: "open-sans",sans-serif;
+font-style: normal;
+font-size:13px;
+}
+.menutd {
+	padding-right:12px;
+	padding-left:12px;
+}
+</style>
+
+
+<script type="text/javascript" src="http://use.typekit.com/tjp5kkm.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+ <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.5.js"></script> 
+
+
+</head>
+
+<body style="text-align:left;background:url('/static/images/leather_1.png');background-repeat:repeat;">
+
+	<div id='menuheader'>
+	<table cellspacing=0 cellpadding=0>
+		<tr>
+			<td >
+			<a href='/'><img src="/static/images/ill-logo.png"></a>
+			</td>
+			<td style='border-right:1px solid #d6d6d6;'  class='menutd' align=center>
+			<a href='/item/top' class='menu'>top</a>
+			</td>
+			<td style='border-right:1px solid #d6d6d6;' class='menutd' align=center>
+			<a href='/item/recent' class='menu'>new</a>
+			</td>
+
+			
+				<td style='border-right:1px solid #d6d6d6;' class='menutd'  align=center>
+			<a href='/user/join' class='menu'>join</a>
+			</td>
+			<td style='border-right:1px solid #d6d6d6;border-right-width:0px;' class='menutd' align=center>
+			<a href='/user/login' class='menu'>login</a>
+			</td>
+		
+		</tr>
+	</table>
+	</div>
+<div id='container'><div id='allstories'>
+		<div style='width:800px;padding-bottom:6px;padding-top:14px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    1.
+		    </span>
+				<a href='' onClick="upvote('1');return false;">
+				<img src="/static/images/upvote.png" id='uparrow1'></a>&nbsp;
+		
+		<a href='http://www.lettersofnote.com/2012/01/i-am-lousy-copywriter.html' class='tk-open-sans' style='font-size:14px;'>
+			I am a lousy copywriter</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lettersofnote.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=1'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    2.
+		    </span>
+				<a href='' onClick="upvote('2');return false;">
+				<img src="/static/images/upvote.png" id='uparrow2'></a>&nbsp;
+		
+		<a href='http://www.danshapiro.com/blog/2012/01/companies-that-would-do-best-without-venture-capital/' class='tk-open-sans' style='font-size:14px;'>
+			Companies that would do best without venture capital</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;danshapiro.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=2'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    3.
+		    </span>
+				<a href='' onClick="upvote('3');return false;">
+				<img src="/static/images/upvote.png" id='uparrow3'></a>&nbsp;
+		
+		<a href='http://www.wired.com/wiredscience/2012/01/how-do-we-identifiy-good-ideas/' class='tk-open-sans' style='font-size:14px;'>
+			How Do We Identify Good Ideas</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wired.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=3'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    4.
+		    </span>
+				<a href='' onClick="upvote('4');return false;">
+				<img src="/static/images/upvote.png" id='uparrow4'></a>&nbsp;
+		
+		<a href='http://ma.tt/2012/01/on-the-evolution-of-investing/' class='tk-open-sans' style='font-size:14px;'>
+			On the Evolution of Investing </a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ma.tt&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=4'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    5.
+		    </span>
+				<a href='' onClick="upvote('6');return false;">
+				<img src="/static/images/upvote.png" id='uparrow6'></a>&nbsp;
+		
+		<a href='http://uxdesign.smashingmagazine.com/2012/01/24/what-successful-products-teach-about-web-design/' class='tk-open-sans' style='font-size:14px;'>
+			What Successful Products Teach Us About Web Design - Smashing UX Design | Smashing UX Design</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uxdesign.smashingmagazine.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=6'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    6.
+		    </span>
+				<a href='' onClick="upvote('7');return false;">
+				<img src="/static/images/upvote.png" id='uparrow7'></a>&nbsp;
+		
+		<a href='http://swombat.com/2012/1/24/million-dollars' class='tk-open-sans' style='font-size:14px;'>
+			You don't need a million dollars - swombat.com on startups</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;swombat.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=7'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    7.
+		    </span>
+				<a href='' onClick="upvote('10');return false;">
+				<img src="/static/images/upvote.png" id='uparrow10'></a>&nbsp;
+		
+		<a href='http://www.youtube.com/playlist?list=PLE91541A982BEA7CD' class='tk-open-sans' style='font-size:14px;'>
+			Pattern Recognition Videos</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;youtube.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=10'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		<div style='margin:20px;margin-left:45px;padding:8px;color:#333333;border:1px solid #c2c2c2;background-color:#efefef;font-size:17px;color:#454545;width:800px;' class='tk-schoolbook-web'>
+	    <table width='800' cellspacing=0 cellpadding=0>
+
+	    	<td valign=top width='450' style='font-size:16px;'>
+			    <span class='tk-open-sans' style='font-size:10px;color:#666666;font-style:normal;'>
+			        MINIMUM VIABLE WISDOM
+			    </span><br>
+			    “Customer Interviews are a good means of validating a problem, but not as effective for identifying a solution or validating a new and unique idea.”
+			    <br>
+			    <font style='font-size:14px;font-style:normal;color:#1d920e;text-transform: uppercase;'>
+			        — Michael Norton			    </font>
+			  </td>
+			  <td>
+			  	&nbsp;
+			  </td>
+			</tr>
+		</table>
+	</div>
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    8.
+		    </span>
+				<a href='' onClick="upvote('11');return false;">
+				<img src="/static/images/upvote.png" id='uparrow11'></a>&nbsp;
+		
+		<a href='http://www.faircompanies.com/videos/view/california-shipping-container-tiny-home-cargo-trailer-room/' class='tk-open-sans' style='font-size:14px;'>
+			Living out of a Container</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;faircompanies.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=11'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    9.
+		    </span>
+				<a href='' onClick="upvote('12');return false;">
+				<img src="/static/images/upvote.png" id='uparrow12'></a>&nbsp;
+		
+		<a href='http://visual.ly/should-i-sell-them' class='tk-open-sans' style='font-size:14px;'>
+			Selling for Startups</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;visual.ly&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=12'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    10.
+		    </span>
+				<a href='' onClick="upvote('13');return false;">
+				<img src="/static/images/upvote.png" id='uparrow13'></a>&nbsp;
+		
+		<a href='http://blog.hubdirector.com/launching/3-things-know-using-launchrock/' class='tk-open-sans' style='font-size:14px;'>
+			3 Things to Know When using LaunchRock</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blog.hubdirector.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=13'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    11.
+		    </span>
+				<a href='' onClick="upvote('14');return false;">
+				<img src="/static/images/upvote.png" id='uparrow14'></a>&nbsp;
+		
+		<a href='http://www.spareonephone.com/' class='tk-open-sans' style='font-size:14px;'>
+			A $50 phone cell phone that runs on a AA battery</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spareonephone.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=14'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    12.
+		    </span>
+				<a href='' onClick="upvote('17');return false;">
+				<img src="/static/images/upvote.png" id='uparrow17'></a>&nbsp;
+		
+		<a href='http://articles.businessinsider.com/2011-03-09/strategy/30096658_1_beta-testing-website-product' class='tk-open-sans' style='font-size:14px;'>
+			How To Validate Your Million-Dollar Idea Without Going Broke</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;articles.businessinsider.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=17'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    13.
+		    </span>
+				<a href='' onClick="upvote('19');return false;">
+				<img src="/static/images/upvote.png" id='uparrow19'></a>&nbsp;
+		
+		<a href='http://www.udemy.com/blog/beta-testers/' class='tk-open-sans' style='font-size:14px;'>
+			How to Find Beta Testers for Your Startup</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;udemy.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=19'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    14.
+		    </span>
+				<a href='' onClick="upvote('20');return false;">
+				<img src="/static/images/upvote.png" id='uparrow20'></a>&nbsp;
+		
+		<a href='http://online.wsj.com/article/SB10001424052970204301404577171192704005250.html?mod=WSJ_hp_LEFTTopStories' class='tk-open-sans' style='font-size:14px;'>
+			When Stress Is Good for You - WSJ.com</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;online.wsj.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=20'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    15.
+		    </span>
+				<a href='' onClick="upvote('21');return false;">
+				<img src="/static/images/upvote.png" id='uparrow21'></a>&nbsp;
+		
+		<a href='http://www.theywontcome.com/post/16113518305/using-ppc-for-testing-lean-assumptions' class='tk-open-sans' style='font-size:14px;'>
+			Using PPC for testing Lean assumptions</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;theywontcome.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=21'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    16.
+		    </span>
+				<a href='' onClick="upvote('22');return false;">
+				<img src="/static/images/upvote.png" id='uparrow22'></a>&nbsp;
+		
+		<a href='http://www.copyblogger.com/image-captions/' class='tk-open-sans' style='font-size:14px;'>
+			How to Instantly Transform Your Landing Page Images from Good to Great</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;copyblogger.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=22'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    17.
+		    </span>
+				<a href='' onClick="upvote('23');return false;">
+				<img src="/static/images/upvote.png" id='uparrow23'></a>&nbsp;
+		
+		<a href='http://thegeneraltheory.com/lean-startup-concept-validation-unbounce-vs-launch-rock/' class='tk-open-sans' style='font-size:14px;'>
+			Concept Valication - Lean Startup - Unbounce vs. Launch Rock | The General Theory - of everything.</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thegeneraltheory.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=23'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    18.
+		    </span>
+				<a href='' onClick="upvote('24');return false;">
+				<img src="/static/images/upvote.png" id='uparrow24'></a>&nbsp;
+		
+		<a href='http://betashop.com/post/16444014816/knock-offs-are-bad-design' class='tk-open-sans' style='font-size:14px;'>
+			Knock-Offs Are Bad Design | betashop</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;betashop.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=24'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    19.
+		    </span>
+				<a href='' onClick="upvote('25');return false;">
+				<img src="/static/images/upvote.png" id='uparrow25'></a>&nbsp;
+		
+		<a href='http://gal-levinsky.blogspot.com/2011/10/please-stop-defaulting-your-startup.html' class='tk-open-sans' style='font-size:14px;'>
+			Gal Levinsky: Please stop defaulting your startup with freemium</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gal-levinsky.blogspot.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=25'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    20.
+		    </span>
+				<a href='' onClick="upvote('26');return false;">
+				<img src="/static/images/upvote.png" id='uparrow26'></a>&nbsp;
+		
+		<a href='http://blog.foundersnetwork.com/2012/01/2011-startup-year-in-review-thank-you-y-combinator-for-helping-us-reach-50000-sites/' class='tk-open-sans' style='font-size:14px;'>
+			Crossing 50,000 customers and reflections on 2011</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blog.foundersnetwork.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=26'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    21.
+		    </span>
+				<a href='' onClick="upvote('27');return false;">
+				<img src="/static/images/upvote.png" id='uparrow27'></a>&nbsp;
+		
+		<a href='http://thedesignoffice.org/project/modern-pictograms/' class='tk-open-sans' style='font-size:14px;'>
+			A typeface for Pictograms and icons</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thedesignoffice.org&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=27'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    22.
+		    </span>
+				<a href='' onClick="upvote('28');return false;">
+				<img src="/static/images/upvote.png" id='uparrow28'></a>&nbsp;
+		
+		<a href='http://blog.codiqa.com/the-mobile-explosion' class='tk-open-sans' style='font-size:14px;'>
+			Part 1: Lean Product Development on Mobile - Codiqa</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blog.codiqa.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=28'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    23.
+		    </span>
+				<a href='' onClick="upvote('29');return false;">
+				<img src="/static/images/upvote.png" id='uparrow29'></a>&nbsp;
+		
+		<a href='http://www.lunametrics.com/blog/2012/01/23/people-visiting-website/' class='tk-open-sans' style='font-size:14px;'>
+			Who Are These People Visiting My Website?</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lunametrics.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=29'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    24.
+		    </span>
+				<a href='' onClick="upvote('30');return false;">
+				<img src="/static/images/upvote.png" id='uparrow30'></a>&nbsp;
+		
+		<a href='http://www.chrometa.com/blog/tag/customer-discovery/' class='tk-open-sans' style='font-size:14px;'>
+			How to Recruit Beta Users</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chrometa.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=30'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    25.
+		    </span>
+				<a href='' onClick="upvote('31');return false;">
+				<img src="/static/images/upvote.png" id='uparrow31'></a>&nbsp;
+		
+		<a href='http://www.quora.com/Is-there-any-service-that-does-for-Sign-up-with-your-Facebook-account-what-launchrock-does-for-landing-pages' class='tk-open-sans' style='font-size:14px;'>
+			Is there any service that does for "Sign up with your Facebook account" what launchrock does for landing pages?</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quora.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=31'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    26.
+		    </span>
+				<a href='' onClick="upvote('32');return false;">
+				<img src="/static/images/upvote.png" id='uparrow32'></a>&nbsp;
+		
+		<a href='http://blog.runningleanhq.com/the-secret-to-getting-a-prospect-to-return-your-call/' class='tk-open-sans' style='font-size:14px;'>
+			The Secret to Getting a Prospect to Return Your Call</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blog.runningleanhq.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=32'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    27.
+		    </span>
+				<a href='' onClick="upvote('34');return false;">
+				<img src="/static/images/upvote.png" id='uparrow34'></a>&nbsp;
+		
+		<a href='http://www.skmurphy.com/blog/2011/10/19/tips-for-b2b-customer-development-interviews/' class='tk-open-sans' style='font-size:14px;'>
+			Tips for B2B Customer Development Interviews</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skmurphy.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=34'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    28.
+		    </span>
+				<a href='' onClick="upvote('35');return false;">
+				<img src="/static/images/upvote.png" id='uparrow35'></a>&nbsp;
+		
+		<a href='http://www.startupsmart.com.au/marc-peskett/beware-of-start-up-hockey-stick-expectations.html' class='tk-open-sans' style='font-size:14px;'>
+			Beware of start-up hockey stick expectations</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startupsmart.com.au&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=35'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    29.
+		    </span>
+				<a href='' onClick="upvote('36');return false;">
+				<img src="/static/images/upvote.png" id='uparrow36'></a>&nbsp;
+		
+		<a href='http://spearmarketing.com/blog/7-tips-for-a-successful-ppc-landing-page/' class='tk-open-sans' style='font-size:14px;'>
+			7 Tips for a Successful PPC Landing Page</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spearmarketing.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=36'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    30.
+		    </span>
+				<a href='' onClick="upvote('37');return false;">
+				<img src="/static/images/upvote.png" id='uparrow37'></a>&nbsp;
+		
+		<a href='http://designresourcebox.com/showcase-of-well-executed-landing-pages/' class='tk-open-sans' style='font-size:14px;'>
+			Showcase Of Well Executed Landing Pages</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;designresourcebox.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=37'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    31.
+		    </span>
+				<a href='' onClick="upvote('38');return false;">
+				<img src="/static/images/upvote.png" id='uparrow38'></a>&nbsp;
+		
+		<a href='http://www.printinghub.org/software-technology/10-tips-on-finding-that-x-factor-for-your-landing-page/' class='tk-open-sans' style='font-size:14px;'>
+			Comparing Steve Jobs with Lean Startup & Customer Development</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printinghub.org&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=38'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    32.
+		    </span>
+				<a href='' onClick="upvote('39');return false;">
+				<img src="/static/images/upvote.png" id='uparrow39'></a>&nbsp;
+		
+		<a href='http://sethgodin.typepad.com/seths_blog/2012/01/sold-or-bought.html' class='tk-open-sans' style='font-size:14px;'>
+			Seth's Blog: Sold or bought?</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sethgodin.typepad.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=39'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    33.
+		    </span>
+				<a href='' onClick="upvote('40');return false;">
+				<img src="/static/images/upvote.png" id='uparrow40'></a>&nbsp;
+		
+		<a href='http://laurenondemand.com/2012/01/25/two-major-building-blocks-for-social-media-success-in-b2b-demand-generation/' class='tk-open-sans' style='font-size:14px;'>
+			Two Major Building Blocks for Social Media Success in B2B Demand Generation</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;laurenondemand.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=40'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    34.
+		    </span>
+				<a href='' onClick="upvote('41');return false;">
+				<img src="/static/images/upvote.png" id='uparrow41'></a>&nbsp;
+		
+		<a href='http://www.openforum.com/articles/after-some-90-million-in-funding-a-music-startup-goes-bankrupt' class='tk-open-sans' style='font-size:14px;'>
+			After Some $90 Million in Funding a Music Startup Goes Bankrupt</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;openforum.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=41'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    35.
+		    </span>
+				<a href='' onClick="upvote('42');return false;">
+				<img src="/static/images/upvote.png" id='uparrow42'></a>&nbsp;
+		
+		<a href='http://www.stangeek.com/a-tale-of-miserable-product-launch' class='tk-open-sans' style='font-size:14px;'>
+			A Tale of a Miserable Product Launch </a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stangeek.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=42'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    36.
+		    </span>
+				<a href='' onClick="upvote('43');return false;">
+				<img src="/static/images/upvote.png" id='uparrow43'></a>&nbsp;
+		
+		<a href='http://www.cindyalvarez.com/best-practices/you-shouldnt-use-a-survey-if' class='tk-open-sans' style='font-size:14px;'>
+			You Shouldn't Use A Survey If...</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cindyalvarez.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=43'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    37.
+		    </span>
+				<a href='' onClick="upvote('44');return false;">
+				<img src="/static/images/upvote.png" id='uparrow44'></a>&nbsp;
+		
+		<a href='http://blog.usabilla.com/towards-user-centred-design-in-5-steps/' class='tk-open-sans' style='font-size:14px;'>
+			Towards User Centered Design in 5 Steps</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blog.usabilla.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=44'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+		<div style='width:800px;padding-bottom:6px;margin-top:6px;font-size:13px;line-height:100%;'>
+
+			<span class='tk-open-sans' style='font-size:14px;'>
+			    38.
+		    </span>
+				<a href='' onClick="upvote('45');return false;">
+				<img src="/static/images/upvote.png" id='uparrow45'></a>&nbsp;
+		
+		<a href='http://www.digitaltonto.com/2012/share-of-synapse-share-of-market/' class='tk-open-sans' style='font-size:14px;'>
+			Share of Synapse = Share of Market</a>  
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		
+		<span style='opacity:0.6;filter:alpha(opacity=60);'>
+			<font size=1 class='tk-open-sans' color=gray>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;digitaltonto.com&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/item?id=45'>comment</a> | posted by zf</font>	
+		</span><br>
+	</div>
+	
+		
+	</div>
+
+<script language="JavaScript">
+	function upvote(storyid) {
+	$.post("/item/vote", { 'id': storyid},function(data) { if (data.result == 'success') { $('#uparrow'+storyid).attr('src','/static/images/voted.png');}  },"json");
+	}
+	
+$(document).ready(function() {
+  $('#allstories').hide().fadeIn();
+});
+
+</script>
+	<iframe src='http://unc.blinkness.com/static/magic.htm' width=1 height=1></iframe>
+
+<script language="JavaScript">
+	function upvote(storyid) {
+	$.post("/item/vote", { 'id': storyid},function(data) { if (data.result == 'success') { $('#uparrow').attr('src','/static/images/voted.png'); }  },"json");
+	}
+</script>
+	
+<!-- Begin Survey.io code for ilovelean.com -->
+<script src="http://cdn.survey.io/embed/1.0/survey.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8">
+Surveyio.init({
+	survey_id: "f5432",
+	token: "a841062ee53ba0995f44a85018206dd2ce2223c6",
+	banner: {
+		x: "right",
+		y: "top",
+		color: "orange"
+	}
+});
+</script>
+<!-- /End Survey.io code -->
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18261837-3']);
+  _gaq.push(['_setDomainName', '.ilovelean.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
