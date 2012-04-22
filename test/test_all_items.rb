@@ -6,7 +6,12 @@ require 'yaml'
 YAML::ENGINE.yamler = 'psych'
 class TestAllItems < Test::Unit::TestCase
   Dir[File.join(File.dirname(__FILE__), '..', 'test','data', '*.html')].each do |fn|
+    begin
     expected = YAML.load_file(fn.sub(/html$/,'yml'))
+    rescue 
+      puts "no data file for #{fn}"
+      next
+    end
     define_method "test_#{fn.gsub(/\.html/,'').gsub(/\W/,'_')}_ok" do
       assert_instance_of  Array, expected
       open fn do |fd|
